@@ -1,7 +1,11 @@
 body
 {
+    width:100%;
     margin:0px;
-    background-image:url('/images/kcpr_fruit.jpg');
+    //background-image:url('/images/kcpr_fruit.jpg');
+    //background-attachment:fixed;
+    background:#ffffff;
+    overflow-x:hidden;
 }
 
 div.now_playing
@@ -22,27 +26,31 @@ div.logo
 {
     float:left;
     position:absolute;
+    top:3;
+    left:5;
     z-index:10;
 }
 div.menu-container
 {
    padding:5px 5px 5px 5px;
-   background:#334433;
+   background:#ffffff;
+   border-bottom:solid #999999 1px;
    width:100%;
    margin:0px;
    height:20px;
+   //box-shadow: -4px -5px 15px #000;
 }
 div.menu
 {
    text-align:center;
    font: bold 12pt "sans";
-   width:60%;
+   width:50%;
    margin:0px auto;
 }
 
 a.ajax-link
 {
-   color: #f77;
+   color: #222222;
    font: bold 12pt "sans";
    text-decoration:none;
    fill:red;
@@ -50,7 +58,7 @@ a.ajax-link
    
 a.ajax-link:visited
 {
-   color: #f77;
+   color: #111111;
    font: bold 12pt "sans";
    text-decoration:none;
 }
@@ -59,8 +67,8 @@ div.main_content
 {
    margin:10px auto;
    margin-top:20px;
-   width:60%;
-   background:#fff;
+   width:50%;
+   //background:#fff;
    padding:20px;
    
 }
@@ -80,7 +88,7 @@ div.post
 {
    float:center;
    font-family: 'Merriweather Sans', sans-serif;
-   marin:0px auto;
+   margin:0px auto;
 
 }
 
@@ -89,7 +97,7 @@ div.heading
    width:100%;
    height:95px;
    font-size: 35px;
-   background:#88BB77;
+   background:#161616;
    padding:0px 0px 0px 10px;
    margin:0px;
    margin-top:-7px;
@@ -104,7 +112,7 @@ div.play_button
    height:0px; 
    border-bottom:10px solid transparent;  /* left arrow slant */
    border-top:10px solid transparent; /* right arrow slant */
-   border-left:15px solid #ffffff; /* bottom, add background color here */
+   border-left:15px solid #009999; /* bottom, add background color here */
    font-size:0px;
    line-height:0px;
    margin: 7px 0px 0px 10px;
