@@ -14,6 +14,7 @@ function print_header()
 ?>
 <html>
    <head>
+   <audio id="streamer" name="media"><source src="http://129.65.35.106:8000/KCPRMP3" type="audio/mpeg"></audio>
       <title>
          kcpr SLO deal with it
       </title>
@@ -29,17 +30,31 @@ function print_header()
    <body>
       <div class="main">
          <div class="heading">
-            <div class="logo"><a class="ajax-link" href="index.php"><img class="logo" id ="logo" src="images/svg/kcpr_final_logo_horiz_color_nobg.svg" height=82px></img></a>
+            <div class="logo"><a class="ajax-link" href="index.php">
+               <img class="logo" id ="logo" src="images/svg/kcpr_final_logo_horiz_color_nobg.svg" height=82px></img></a>
             </div>
-            <div id="stream" class="play_button">
-            </div>
-            <div class="3d_menu_effect">
-            </div>
+            <div id="play_button" onclick="
+            if (document.getElementById('streamer').paused)
+            {
+              document.getElementById('play_button').style.border='35px solid #009999';
+              document.getElementById('streamer').play();
+            }
+            else
+            {
+               document.getElementById('streamer').load();
+
+               document.getElementById('play_button').style.borderBottom='35px solid transparent';
+               document.getElementById('play_button').style.borderRight='35px solid transparent';
+               document.getElementById('play_button').style.borderTop='35px solid transparent';
+               document.getElementById('play_button').style.borderLeft='45px solid #009999';
+            }
+              
+            "></div>
             <div class="now_playing">
             Dudes with Cigars - Le Epic Defeat (Gnarwhal Gnonsense)
             </div>
          </div>
-         <div class="menu-container">
+         <div id="menu_container">
             <div class="menu">
                <div class="item">
                   <a class="ajax-link" class="menu_link" href="anotherpage.php">SCHEDULE</a>
@@ -66,27 +81,30 @@ function print_content()
       <div id="content" class="border-module">
          <div class="main_content">
          some divs and stuff will go here.
-            <div class="post">             
-               <date>
-                  cool date
-               </date>
-               <h2>
-                  cool title goes here
-               </h2>
-               <p> iLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor volutpat leo, id aliquet purus faucibus et. Nullam lacinia lorem ac nibh consequat imperdiet. Sed leo libero, pretium sit amet dignissim sed, condimentum vel tellus. Sed auctor rhoncus ligula, id aliquet turpis venenatis non. Donec mollis nibh id justo interdum consectetur. Vivamus iaculis aliquet leo adipiscing placerat. Suspendisse laoreet elit sed dui varius non consequat tellus tincidunt. Mauris sed nibh a enim placerat scelerisque id ut enim. Curabitur dictum ornare diam, quis blandit erat pharetra quis.
-               </p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor volutpat leo, id aliquet purus faucibus et. Nullam lacinia lorem ac nibh consequat imperdiet. Sed leo libero, pretium sit amet dignissim sed, condimentum vel tellus. Sed auctor rhoncus ligula, id aliquet turpis venenatis non. Donec mollis nibh id justo interdum consectetur. Vivamus iaculis aliquet leo adipiscing placerat. Suspendisse laoreet elit sed dui varius non consequat tellus tincidunt. Mauris sed nibh a enim placerat scelerisque id ut enim. Curabitur dictum ornare diam, quis blandit erat pharetra quis.
-               so
-               </p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor volutpat leo, id aliquet purus faucibus et. Nullam lacinia lorem ac nibh consequat imperdiet. Sed leo libero, pretium sit amet dignissim sed, condimentum vel tellus. Sed auctor rhoncus ligula, id aliquet turpis venenatis non. Donec mollis nibh id justo interdum consectetur. Vivamus iaculis aliquet leo adipiscing placerat. Suspendisse laoreet elit sed dui varius non consequat tellus tincidunt. Mauris sed nibh a enim placerat scelerisque id ut enim. Curabitur dictum ornare diam, quis blandit erat pharetra quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor volutpat leo, id aliquet purus faucibus et. Nullam lacinia lorem ac nibh consequat imperdiet. Sed leo libero, pretium sit amet dignissim sed, condimentum vel tellus. Sed auctor rhoncus ligula, id aliquet turpis venenatis non. Donec mollis nibh id justo interdum consectetur. Vivamus iaculis aliquet leo adipiscing placerat. Suspendisse laoreet elit sed dui varius non consequat tellus tincidunt. Mauris sed nibh a enim placerat scelerisque id ut enim. Curabitur dictum ornare diam, quis blandit erat pharetra quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor volutpat leo, id aliquet purus faucibus et. Nullam lacinia lorem ac nibh consequat imperdiet. Sed leo libero, pretium sit amet dignissim sed, condimentum vel tellus. Sed auctor rhoncus ligula, id aliquet turpis venenatis non. Donec mollis nibh id justo interdum consectetur. Vivamus iaculis aliquet leo adipiscing placerat. Suspendisse laoreet elit sed dui varius non consequat tellus tincidunt. Mauris sed nibh a enim placerat scelerisque id ut enim. Curabitur dictum ornare diam, quis blandit erat pharetra quis.
-               T
-               </p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor volutpat leo, id aliquet purus faucibus et. Nullam lacinia lorem ac nibh consequat imperdiet. Sed leo libero, pretium sit amet dignissim sed, condimentum vel tellus. Sed auctor rhoncus ligula, id aliquet turpis venenatis non. Donec mollis nibh id justo interdum consectetur. Vivamus iaculis aliquet leo adipiscing placerat. Suspendisse laoreet elit sed dui varius non consequat tellus tincidunt. Mauris sed nibh a enim placerat scelerisque id ut enim. Curabitur dictum ornare diam, quis blandit erat pharetra quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor volutpat leo, id aliquet purus faucibus et. Nullam lacinia lorem ac nibh consequat imperdiet. Sed leo libero, pretium sit amet dignissim sed, condimentum vel tellus. Sed auctor rhoncus ligula, id aliquet turpis venenatis non. Donec mollis nibh id justo interdum consectetur. Vivamus iaculis aliquet leo adipiscing placerat. Suspendisse laoreet elit sed dui varius non consequat tellus tincidunt. Mauris sed nibh a enim placerat scelerisque id ut enim. Curabitur dictum ornare diam, quis blandit erat pharetra quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor volutpat leo, id aliquet purus faucibus et. Nullam lacinia lorem ac nibh consequat imperdiet. Sed leo libero, pretium sit amet dignissim sed, condimentum vel tellus. Sed auctor rhoncus ligula, id aliquet turpis venenatis non. Donec mollis nibh id justo interdum consectetur. Vivamus iaculis aliquet leo adipiscing placerat. Suspendisse laoreet elit sed dui varius non consequat tellus tincidunt. Mauris sed nibh a enim placerat scelerisque id ut enim. Curabitur dictum ornare diam, quis blandit erat pharetra quis.
-               </p>
-            </div>
+            <?php
+                  require_once('./php/simplepie/autoloader.php');
+                  $feed = new SimplePie();
+                  $feed->set_feed_url ('http://kcprslo.wordpress.com/feed');
+                  $feed->init();
+                  $feed->handle_content_type();
+
+                  foreach ($feed->get_items(0,5) as $item):
+            ?>
+
             <div class="post">
-               and here's another
+               <div class="post_heading">
+                  <date>
+                     <?php echo $item->get_date('j F Y | G:i a'); ?>
+                  </date>
+                  <h2>
+                     <?php echo $item->get_title(); ?>
+                  </h2>
+               </div>
+               <?php if ($enc = $item->get_enclosure(1))
+                        echo "<img class='post_image' src=" . ($item->get_enclosure(1)->get_link()) . "></img>"; ?>
+               <?php echo $item->get_description(); ?>
             </div>
+            <?php endforeach ?> and that's all
          </div>
       </div>
    </div>

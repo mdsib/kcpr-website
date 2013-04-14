@@ -5,7 +5,19 @@ body
     //background-image:url('/images/kcpr_fruit.jpg');
     //background-attachment:fixed;
     background:#ffffff;
-    overflow-x:hidden;
+}
+
+div.stream
+{
+}
+
+img.post_image
+{
+   width:50%;
+   float:left;
+   margin-right:10;
+   margin-top:10;
+   margin-bottom:10;
 }
 
 div.now_playing
@@ -21,6 +33,7 @@ div.item
 {
     float:left;
     width:25%;
+
 }
 div.logo
 {
@@ -28,17 +41,20 @@ div.logo
     position:absolute;
     top:3;
     left:5;
-    z-index:10;
+    z-index:1;
 }
-div.menu-container
+#menu_container
 {
    padding:5px 5px 5px 5px;
-   background:#ffffff;
-   border-bottom:solid #999999 1px;
+   //background:#ffffff;
+   background-image: url('/images/thomas_cole_bg.jpg');
+   background-position: 1000px 1000px;
+   //border-bottom:solid #999999 1px;
    width:100%;
    margin:0px;
    height:20px;
    //box-shadow: -4px -5px 15px #000;
+   z-index:1;
 }
 div.menu
 {
@@ -50,7 +66,7 @@ div.menu
 
 a.ajax-link
 {
-   color: #222222;
+   color: #FFFFFF;
    font: bold 12pt "sans";
    text-decoration:none;
    fill:red;
@@ -58,7 +74,14 @@ a.ajax-link
    
 a.ajax-link:visited
 {
-   color: #111111;
+   color: #FFFFFF;
+   font: bold 12pt "sans";
+   text-decoration:none;
+}
+
+a.ajax-link:hover
+{
+   color: #FF5555;
    font: bold 12pt "sans";
    text-decoration:none;
 }
@@ -67,28 +90,45 @@ div.main_content
 {
    margin:10px auto;
    margin-top:20px;
-   width:50%;
+   width:700;
    //background:#fff;
    padding:20px;
    
 }
-
+div.post_heading
+{
+    width:100%;
+    margin:bottom:10px;
+    background:green;
+}
 date
 {
    color:#f5f5ff;
-   background:#000000;
+   background-image:url('/images/thomas_cole_bg.jpg');
+   background-attachment:fixed;
+   width:100%;
+   float:left;
+   position:relative;
+   background-position: 30px;
+
 }
 
 h2
 {
    font-size:40px;
+   width:100%;
+   margin:0px;
+   float:left;
+      background-image:url('/images/thomas_cole_bg.jpg');
+   background-attachment:fixed;
+   background-position: 0px;
 }
 
 div.post
 {
-   float:center;
    font-family: 'Merriweather Sans', sans-serif;
    margin:0px auto;
+   text-align:justify;
 
 }
 
@@ -97,32 +137,32 @@ div.heading
    width:100%;
    height:95px;
    font-size: 35px;
-   background:#161616;
+   background-image: url('/images/thomas_cole_bg.jpg');
+   background-position: -800px 1200px;
    padding:0px 0px 0px 10px;
    margin:0px;
-   margin-top:-7px;
+   margin-top:0px;
    font-family:sans-serif;
 }
 
-
-
-div.play_button
+#play_button
 {
    width:0px; 
    height:0px; 
-   border-bottom:10px solid transparent;  /* left arrow slant */
-   border-top:10px solid transparent; /* right arrow slant */
-   border-left:15px solid #009999; /* bottom, add background color here */
+   border-bottom:35px solid transparent;  /* left arrow slant */
+   border-top:35px solid transparent; /* right arrow slant */
+   border-left:45px solid #009999; /* bottom, add background color here */
    font-size:0px;
    line-height:0px;
+   color:#dddddd;
    margin: 7px 0px 0px 10px;
-   float:left;
    position:absolute;
    z-index:15;
-   top:85px;
+   top:5px;
+   left:403px;
 }
 
-div.play_button:hover
+#play_button:hover
 {
-       border-left:35px solid #eeeeee; /* bottom, add background color here */
+       border-left-color: #00BBBB; /* bottom, add background color here */
 }
