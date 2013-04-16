@@ -7,9 +7,7 @@ body
     background:#ffffff;
 }
 
-div.stream
-{
-}
+
 
 img.post_image
 {
@@ -20,20 +18,33 @@ img.post_image
    margin-bottom:10;
 }
 
+song
+{
+    color:#999;
+}
+
 div.now_playing
 {
-    float:right;
+    position:absolute;
     color:white;
     margin:10px 20px 0px 0px;
-    font-family:arial;
-    font-size: 20px;
+    font-family:'Lato';
+    font-size: 15px;
+    text-align:right;
+    right:0px;
+    bottom:0px;
+    background:rgba(0,0,0,.4);
+    padding:5px;
+    margin-right:10px;
+    max-width:300px;
 }
 
 div.item
 {
     float:left;
-    width:25%;
-
+    width:20%;
+    font-family:"Lato";
+    text-align:center;
 }
 div.logo
 {
@@ -48,26 +59,25 @@ div.logo
    padding:5px 5px 5px 5px;
    //background:#ffffff;
    background-image: url('/images/thomas_cole_bg.jpg');
-   background-position: 1000px 1000px;
+   background-position: 0px 190px;
+   background-attachment:fixed;
    //border-bottom:solid #999999 1px;
    width:100%;
    margin:0px;
-   height:20px;
    //box-shadow: -4px -5px 15px #000;
    z-index:1;
+   position:absolute;
+   top:95px;
 }
 div.menu
 {
-   text-align:center;
-   font: bold 12pt "sans";
-   width:50%;
+   width:700px;
    margin:0px auto;
 }
 
 a.ajax-link
 {
    color: #FFFFFF;
-   font: bold 12pt "sans";
    text-decoration:none;
    fill:red;
 }
@@ -75,21 +85,19 @@ a.ajax-link
 a.ajax-link:visited
 {
    color: #FFFFFF;
-   font: bold 12pt "sans";
    text-decoration:none;
 }
 
 a.ajax-link:hover
 {
    color: #FF5555;
-   font: bold 12pt "sans";
    text-decoration:none;
 }
 
-div.main_content
+#content
 {
    margin:10px auto;
-   margin-top:20px;
+   margin-top:150px;
    width:700;
    //background:#fff;
    padding:20px;
@@ -115,6 +123,7 @@ date
 
 h2
 {
+   color:#fff;
    font-size:40px;
    width:100%;
    margin:0px;
@@ -132,17 +141,21 @@ div.post
 
 }
 
-div.heading
+#heading
 {
    width:100%;
    height:95px;
    font-size: 35px;
    background-image: url('/images/thomas_cole_bg.jpg');
    background-position: -800px 1200px;
+   background-attachment:fixed;
    padding:0px 0px 0px 10px;
    margin:0px;
    margin-top:0px;
-   font-family:sans-serif;
+   font-family:'Lato';
+   position:fixed;
+   top:0px;
+   z-index:2;
 }
 
 #play_button
@@ -165,4 +178,15 @@ div.heading
 #play_button:hover
 {
        border-left-color: #00BBBB; /* bottom, add background color here */
+}
+
+#footer
+{
+    background-image:url('/images/thomas_cole_bg.jpg');
+    background-attachment:fixed;
+    background-position: 0px;
+    height:300px;
+    margin-top:50px;
+    font:15pt "Lato";
+    color:white;
 }
