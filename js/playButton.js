@@ -1,18 +1,20 @@
-var isPlaying = false;
+//var isPlaying = false;
 
-document.getElementById('playButton').onclick=function()
+
 {
-   if (isPlaying === false)
-   {
-      document.getElementById('stream').play();
-      $("div.play_button").css({background:'#444444'});
-      isPlaying = true;
-   }
-   else
-   {
-      document.getElementById('stream').stop();
-      $("div.play_button").css({background:'#004444'});
-      isPlaying = false;
-   }
+   //if (isPlaying === false)
+   //{
+      //document.getElementById('streamer').play();
+      document.getElementById('play_button').style.border-bottom="35px solid transparent";
+      document.getElementById('play_button').style.border-top="35px solid transparent";
+      document.getElementById('play_button').style.border-left="45px solid #009999";
+   //   isPlaying = true;
+   //}
+   //else
+   //{
+   //   //document.getElementById('streamer').stop();
+      document.getElementById('play_button').style.border="35px solid #009999";
+   //   isPlaying = false;
+   //}
 }
       
