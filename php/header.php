@@ -42,19 +42,19 @@ function print_header($title)
          <div id="menu_container">
             <div class="menu">
                <div class="item">
-                  <a class="ajax-link" class="menu_link" href="anotherpage.php">HOME/BLOG</a>
+                  <a class="ajax-link" class="menu_link" href="index.php">HOME/BLOG</a>
                </div>
                <div class="item">
-                  <a class="ajax-link" class="menu_link" href="anotherpage.php">MUSIC</a>
+                  <a class="ajax-link" class="menu_link" href="music.php">MUSIC</a>
                </div>
                <div class="item">
-                  <a class="ajax-link" class="menu_link" href="2ndpage.php">SCHEDULE</a>
+                  <a class="ajax-link" class="menu_link" href="schedule.php">SCHEDULE</a>
                </div>
                <div class="item">
-                  <a class="ajax-link" class="menu_link" href="schedule.php">EVENTS</a>
+                  <a class="ajax-link" class="menu_link" href="events.php">EVENTS</a>
                </div>
                <div class="item">
-                  <a class="ajax-link" class="menu_link" href="2ndpage.php">LISTEN</a>
+                  <a class="ajax-link" class="menu_link" href="listen.php">LISTEN</a>
                </div>
             </div>
          </div>

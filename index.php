@@ -25,7 +25,7 @@
 
    function print_content()
    { 
-   ?>
+?>
       <div id="content" class="border-module">
             <?php
                require_once('./php/simplepie/autoloader.php');
@@ -55,6 +55,6 @@
             </div>
             <?php endforeach ?> 
          </div>
-   <?php
+<?php
    }
 ?>

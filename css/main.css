@@ -6,7 +6,44 @@ body
     //background-attachment:fixed;
     background:#ffffff;
 }
+.day
+{
+   float:left;
+   width:100px;
+   font-size:12px;
+   font-family:"Lato";
+}
 
+.auto, .special, .regular, .talk, .news
+{
+   box-sizing:border-box;
+   padding:2px;
+   border: solid white 2px;
+}
+
+.auto
+{
+   background:#dad;
+}
+
+.special
+{
+   background:#68f;
+}
+.regular
+{
+    background:#88dd77;
+}
+
+.talk
+{
+    background:#3fffff;
+}
+
+.news
+{
+    background:#55aaaa;
+}
 
 
 img.post_image
