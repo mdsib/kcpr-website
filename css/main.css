@@ -1,3 +1,30 @@
+.text_button
+{
+    float:left;
+    width:30%;
+    text-align:center;
+    margin-bottom:20px;
+    font:bold 20pt"Lato";
+    color:white;
+    background:#449999;
+
+}
+#left_button
+{
+    float:left;
+    margin-right:35px;
+
+}
+#right_button
+{
+    float:right;
+}
+
+.text_button:hover
+{
+   background:#00bbbb;
+}
+
 body
 {
     width:100%;
@@ -6,53 +33,16 @@ body
     //background-attachment:fixed;
     background:#ffffff;
 }
-.day
-{
-   float:left;
-   width:100px;
-   font-size:12px;
-   font-family:"Lato";
-}
 
-.auto, .special, .regular, .talk, .news
+#fake_header
 {
-   box-sizing:border-box;
-   padding:2px;
-   border: solid white 2px;
+   height:150px;
 }
-
-.auto
-{
-   background:#dad;
-}
-
-.special
-{
-   background:#68f;
-}
-.regular
-{
-    background:#88dd77;
-}
-
-.talk
-{
-    background:#3fffff;
-}
-
-.news
-{
-    background:#55aaaa;
-}
-
-
 img.post_image
 {
    width:50%;
    float:left;
    margin-right:10;
-   margin-top:10;
-   margin-bottom:10;
 }
 
 song
@@ -131,23 +121,32 @@ a.ajax-link:hover
    text-decoration:none;
 }
 
+.post_body
+{
+}
+
+
 #content
 {
    margin:10px auto;
-   margin-top:150px;
+   margin-top:0px;
    width:700;
    //background:#fff;
    padding:20px;
+   font-family:"Merriweather Sans";
    
 }
 div.post_heading
 {
     width:100%;
+    height:70px;
     margin:bottom:10px;
-    background:green;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 date
 {
+   font-family:"Lato";
    color:#f5f5ff;
    background-image:url('/images/thomas_cole_bg.jpg');
    background-attachment:fixed;
@@ -227,3 +226,4 @@ div.post
     font:15pt "Lato";
     color:white;
 }
+

@@ -3,4 +3,5 @@
       $feed->set_feed_url('http://kcprslo.wordpress.com/feed');
       $feed->init();
       $feed->handle_content_type();
+      echo date('w');
 ?>

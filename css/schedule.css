@@ -1,0 +1,74 @@
+#main_content
+{
+   height:1500px;
+}
+.calendar_times
+{
+   padding-top:34px;
+   float:left;
+}
+
+.key
+{
+   width:16.66666%;
+   float:left;
+   height:50px;
+}
+
+.time
+{
+   //border-top: solid rgba(0,0,0,0.2) 3px;
+   background:#eee;
+   margin-top:4px;
+   margin-right:3px;
+   height:48px;
+   text-align:right;
+   font-family:"Lato";
+}
+
+.day
+{
+   float:left;
+   width:93.1px;
+   font-size:13px;
+   font-family:"Lato";
+   margin-top:20px;
+}
+
+.auto, .special, .regular, .talk, .news, .grave
+{
+   box-sizing:border-box;
+   padding:1px;
+   padding-top:0px;
+   border: solid white 2px;
+   color:white;
+}
+
+.auto
+{
+   background:#ddd;
+}
+
+.grave
+{
+   background:#699;
+}
+
+.special
+{
+   background:#5b6;
+}
+.regular
+{
+    background:#38d;
+}
+
+.talk
+{
+    background:#b7a;
+}
+
+.news
+{
+    background:#f67;
+}

@@ -50,7 +50,7 @@
 
                <?php if ($enc = $item->get_enclosure(1))
                   echo "<img class='post_image' src=" . ($item->get_enclosure(1)->get_link()) . "></img>"; ?>
-               <?php echo $item->get_description(); ?>
+               <?php echo "<div class='post_body'>".$item->get_description()."This is a lot alot alot laot laot laotlal fj ajlfj lsfljalfjsal jfsaflsa jfl jsafjsaf jlsa jfljsalfjsalf jlsajfljsa lfjsalf jsal jflsa jfljsalf jsal jflsa jflsa fjsa lfdsalkjfdskfj lkdsf kjds nflsdl nsnf sdfdsj flksdf jds jfds ljfkhdslkf hjdsal hfsaf lhjf hieaf iusahdfli uahefk jabsfl kjbsaflk jshelkf jldsak wkeanf lasdnf lkajesnf lkudsanfc kjewnf lusandf lkjdsalkf jbewaf lkjdslkjf dsak jkdsf hlksa flkjawehfl kf kjhewa hjlkjdsa flkwhjef lkjdsahf lkjewahf lkhf lkhfe lksajfl khewalkf jdsalk hjwelkf hjsalkdf hjwalke hfkdsajflkafl kjsadhf lkjewhf lkjfdsalk hjwe hjsaldk lwqflkjsahflkjwhefiwaufidsahflkjdsahfjdhfj hfj hf jh jh jhf jhf jhfj hfj hjfh jf f hf hkfsj hslkjf hlkdsajfh lkjhfdslk jhdsafj hlkkjhfdsal kjfdsa khjfdsalk hjfdsa lkjhfdsa kjhfds lkhjfdskj fdsa lkjdsaf hjdsakf jshf ljdsaf kjhf ljsf lkjdshf lkfkjshfjdsahflk jlf hlkfds hsakjfd lskjd hflksaf jksadhf lkjdsaf lk hsadlf kjdsalkjf hdsaf hdslkj hsahf lksdfh lkdsajf lot more text</div>"; ?>
 
             </div>
             <?php endforeach ?> 

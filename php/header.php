@@ -39,6 +39,7 @@ function print_header($title)
             <song>Dudes with Cigars//"Le Epic Defeat"</song>
             </div>
          </div>
+         <div id="fake_header"></div>
          <div id="menu_container">
             <div class="menu">
                <div class="item">
