@@ -9,28 +9,9 @@
       type='text/css'>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <!-- web browsers like css here instead of in php files -->
+<?php include("php/header.php"); ?>
 
-<?php
-   include "php/ajax_handler.php"; //this manages ajax stuff and includes
-                                   //functions for printing info on the
-                                   //page like header and footer.
+<p>yes</p>
 
+<?php include("php/footer.php"); ?>
 
-//the page's content goes here. everything besides header and footer!!
-//always make sure this is enclosed in:
-//                <div id="content" class="border-module">
-//                   ...
-//                   ...
-//                </div>
-?>
-
-<?php
-
-   function print_content()
-   { ?>
-      <div id="content" class="border-module">
-         <div id="new_music">
-            
-<?php  
-   }
-?>

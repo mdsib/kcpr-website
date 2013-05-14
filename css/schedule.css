@@ -10,7 +10,7 @@
 
 .key
 {
-   width:16.66666%;
+   width:20%;
    float:left;
    height:50px;
 }
@@ -35,7 +35,7 @@
    margin-top:20px;
 }
 
-.auto, .special, .regular, .talk, .news, .grave
+.auto, .special, .regular, .talk, .news
 {
    box-sizing:border-box;
    padding:1px;
@@ -47,11 +47,6 @@
 .auto
 {
    background:#ddd;
-}
-
-.grave
-{
-   background:#699;
 }
 
 .special

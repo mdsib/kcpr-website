@@ -31,7 +31,6 @@
 ?>
    <div id="key_box">
       <div class="regular key">REGULAR SHOW</div>
-      <div class="grave key">GRAVEYARD</div>
       <div class="special key">SPECIAL SHOW</div>
       <div class="news key">NEWS</div>
       <div class="talk key">TALK SHOW</div>
@@ -98,62 +97,62 @@
      $djumpteenth = array (
          "title" => "DJ Umpteenth",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $bobak = array (
          "title" => "Bobak",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $connorfs = array (
          "title" => "Connor F. S.",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $connor = array (
          "title" => "Connor",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $lauren = array (
          "title" => "Lauren",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $kid = array (
          "title" => "Kid Chameleon",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $annie = array (
          "title" => "Annie",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $sam = array (
          "title" => "Spaceman Sam",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $pigeon = array (
          "title" => "Pigeon",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $magic = array (
          "title" => "DJ Magic Touch",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $swiftmane = array (
          "title" => "DJ Swiftmane",
          "length" => 3,
-         "format" => "grave",
+         "format" => "regular",
       );
      $funkydunk = array (
          "title" => "DJ Funkydunk",
          "length" => 3,
-         "format" => "grave",
+         "format" => "regular",
       );
 
 ////REGULAR SHOWS
