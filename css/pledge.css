@@ -1,6 +1,79 @@
-#content {
-    width:300px;
+#content
+{
+   margin-top:-100px;
+}
+cursive{
+   font: 30px "Pacifico";
+   line-height:5%;
+}
+#thermometer_container, #thermometer_progress{
+    font-size:15pt;
+}
+
+#thermometer_container
+{
+    background:#ddd;
+    width:100%;
+}
+
+#thermometer_progress
+{
+    background:#500;
+    text-align:right;
+    padding:10px;
+}
+
+#donate_window
+{
+   float:right;
+   width:200px;
+}
+
+#donate_description
+{
+    background:#f45;
+    padding:5px;
+    color:white;
+    font-family:"Lato";
+}
+#donate_button
+{
+    background:#5ca;
+    font-size:40px;
+    font-family:"Lato";
+    padding:10px;
+}
+
+#pledge_title_area {
+   font-size:100;
+   height:300px;
+   width:100%;
+   margin:0px auto;
+   text-align:center;
+   background-image:url('/images/heading.svg');
+   background-attachment:fixed;
+   color:white;
+   font-family:"Lato";
+   padding-top:50px;
+   margin-top:-50px;
+}
+
+#pledge_title
+{
+    width:700px;
+    margin:0px auto;
+}
+
+#pledge_page {
+   float:left;
+   height:100%;
+}
+
+#thermometer_content {
+    height:300px;
     margin:30px auto;
+    float:right;
+    position:relative;
 }
 #thermometer {
     width:40px;

@@ -84,14 +84,9 @@ div.logo
 #menu_container
 {
    padding:5px 5px 5px 5px;
-   //background:#ffffff;
-   background-image: url('/images/thomas_cole_bg.jpg');
-   background-position: 0px 190px;
-   background-attachment:fixed;
-   //border-bottom:solid #999999 1px;
+   background:#000;
    width:100%;
    margin:0px;
-   //box-shadow: -4px -5px 15px #000;
    z-index:1;
    position:absolute;
    top:95px;
