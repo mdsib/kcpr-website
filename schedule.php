@@ -1,37 +1,11 @@
 <title> KCPR - SCHEDULE </title>
 
-<!-- web browsers like css here instead of in php files -->
-<link href='http://fonts.googleapis.com/css?family=Lato' 
-      rel='stylesheet' 
-      type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:300' 
-      rel='stylesheet' 
-      type='text/css'>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="stylesheet" type="text/css" href="css/schedule.css">
-<!-- web browsers like css here instead of in php files -->
+<?php include "php/ajax_handler.php"; ?>
 
-<?php
-   include "php/ajax_handler.php"; //this manages ajax stuff and includes
-                                   //functions for printing info on the
-                                   //page like header and footer.
-
-
-//the page's content goes here. everything besides header and footer!!
-//always make sure this is enclosed in:
-//                <div id="content" class="border-module">
-//                   ...
-//                   ...
-//                </div>
-?>
-
-<?php
-   function print_key()
-   {
-?>
+<?php function print_key() { ?>
+   
    <div id="key_box">
       <div class="regular key">REGULAR SHOW</div>
-      <div class="grave key">GRAVEYARD</div>
       <div class="special key">SPECIAL SHOW</div>
       <div class="news key">NEWS</div>
       <div class="talk key">TALK SHOW</div>
@@ -39,8 +13,7 @@
    </div>
 <?php }
 
-   function print_calendar_time()
-   { 
+   function print_calendar_time() {
      $times = array(
          "1-4am",
          "4-7",
@@ -98,62 +71,62 @@
      $djumpteenth = array (
          "title" => "DJ Umpteenth",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $bobak = array (
          "title" => "Bobak",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $connorfs = array (
          "title" => "Connor F. S.",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $connor = array (
          "title" => "Connor",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $lauren = array (
          "title" => "Lauren",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $kid = array (
          "title" => "Kid Chameleon",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $annie = array (
          "title" => "Annie",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $sam = array (
          "title" => "Spaceman Sam",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $pigeon = array (
          "title" => "Pigeon",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $magic = array (
          "title" => "DJ Magic Touch",
          "length" => 1,
-         "format" => "grave",
+         "format" => "regular",
       );
      $swiftmane = array (
          "title" => "DJ Swiftmane",
          "length" => 3,
-         "format" => "grave",
+         "format" => "regular",
       );
      $funkydunk = array (
          "title" => "DJ Funkydunk",
          "length" => 3,
-         "format" => "grave",
+         "format" => "regular",
       );
 
 ////REGULAR SHOWS

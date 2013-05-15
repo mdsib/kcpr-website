@@ -1,9 +1,5 @@
-#content
-{
-   margin-top:-100px;
-}
 cursive{
-   font: 30px "Pacifico";
+   font-size: 30px;
    line-height:5%;
 }
 #thermometer_container, #thermometer_progress{
@@ -18,30 +14,34 @@ cursive{
 
 #thermometer_progress
 {
-    background:#500;
+    background:#2b7;
     text-align:right;
     padding:10px;
 }
 
 #donate_window
 {
-   float:right;
-   width:200px;
+   margin:0px auto;
+   width:400px;
 }
 
 #donate_description
 {
-    background:#f45;
+    background:#f57;
     padding:5px;
     color:white;
     font-family:"Lato";
 }
 #donate_button
 {
-    background:#5ca;
-    font-size:40px;
+    text-align:center;
+    background:#f55;
+    font-size:20px;
     font-family:"Lato";
+    margin:15px auto;
+    margin-top:37px;
     padding:10px;
+    width:330px;
 }
 
 #pledge_title_area {
@@ -69,48 +69,3 @@ cursive{
    height:100%;
 }
 
-#thermometer_content {
-    height:300px;
-    margin:30px auto;
-    float:right;
-    position:relative;
-}
-#thermometer {
-    width:40px;
-    height:300px;
-    position: relative;
-    background: #ddd;
-}
-#thermometer .track {
-    height:290px;
-    top:10px;
-    width:100%;
-    position: relative;
-    margin:0 auto;
-}
-#thermometer .progress {
-    height:0;
-    width:100%;
-    background: rgb(50, 200, 100);
-    position: absolute;
-    bottom:0;
-    left:0;
-}
-#thermometer .goal {
-    position:absolute;
-    top:10;
-}
-#thermometer .amount {
-    display: inline-block;
-    font-family: Trebuchet MS;
-    font-weight: bold;
-    color:#fff;
-    background:#000;
-    z-index:10;
-    position:absolute;
-    padding: 3px 6px 3px 20px;
-    width:50px;
-}
-#thermometer .progress .amount {
-    color:#2b7;
-}
