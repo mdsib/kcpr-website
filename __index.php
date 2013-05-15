@@ -6,7 +6,8 @@ include "php/ajax_handler.php";
 function print_content()
 {
 ?>
-      <div id="content" class="border-module">
+      <div id="ajax_content" class="border-module">
+      <div class="content">
 <?php
    require_once('./php/simplepie/autoloader.php');
    $feed = new SimplePie();
@@ -33,6 +34,7 @@ echo "<img class='post_image' src=" . ($item->get_enclosure(1)->get_link()) . ">
 
             </div>
             <?php endforeach ?>
+         </div>
          </div>
 <?php
 }

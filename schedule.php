@@ -641,7 +641,7 @@
      //days->day->show->info
      //$days [0-6]  [0-?]   [0,1,2]
   
-        echo '<div id="content" class="border-module" style="height:1200px">';
+        echo '<div id="ajax_content" class="border-module content" style="height:1200px">';
         print_key();
         print_calendar_time();
         for ($d=0; $d<7; $d++)

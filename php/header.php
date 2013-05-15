@@ -13,6 +13,7 @@ function print_header($title)
    type='text/css'>
    <link rel="stylesheet" type="text/css" href="css/main.css">
    <link rel="stylesheet" type="text/css" href="css/schedule.css">
+   <link rel="stylesheet" type="text/css" href="css/pledge.css">
    <!-- web browsers like css here instead of in php files -->
 
    <audio preload="false" id="streamer" name="media">
