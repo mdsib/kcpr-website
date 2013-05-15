@@ -13,12 +13,48 @@
 </head>
 <!-- web browsers like css here instead of in php files -->
 
-<<<<<<< HEAD
-=======
-function print_content() {
-?>
-   <div id="content" class="border-module">
+<?php
+   include "php/ajax_handler.php"; //this manages ajax stuff and includes
+                                   //functions for printing info on the
+                                   //page like header and footer.
 
+
+//the page's content goes here. everything besides header and footer!!
+//always make sure this is enclosed in:
+//                <div id="content" class="border-module">
+//                   ...
+//                   ...
+//                </div>
+   function print_thermometer()
+   {
+      $current = 500;
+      echo "<div id = 'thermometer_container'>";
+      echo "<div id = 'thermometer_progress' style='width:".(($current / 5000) * 100)."%'>".$current."</div>";
+      echo "</div>";
+   }
+
+   function print_content()
+   { 
+?>
+      <div id="ajax_content" class="border-module">
+      <div id="pledge_title_area"> 
+         <div id="pledge_title"><cursive>45th anniversary edition</cursive><br></font>PLEDGE DRIVE</div>
+      <?php print_thermometer(); ?>
+         <div id="donate_button">
+            DONATE AND GET COOL STUFF
+         </div>
+      </div>
+      <div class="content" id="pledge_content">
+      <!--thermometer begins here -->
+      <!--thermometer ends here -->
+<div id="pledge_video">
+<iframe width="700" height="420" src="http://www.youtube.com/embed/wDCLgTti7xk" frameborder="0" allowfullscreen></iframe>
+<p> This week, we are asking our loving community members and listeners to help us keep our station running smoothly. The facts are: We recieve x dollars from blah. We are planning on buying new equipment for remote broadcasting to up our quality and diversity of coverage. You could hear live shows, interviews, and much more from KCPR! We're also looking to upgrade a few parts in our station and perform general maintenence work. We would love your support. Really!<br><br>
+
+To show you how much we care, we'll give you some cool stuff in return.<br><br>
+
+
+<img class="pledge_gift" src="/images/pledge/kcpr_mug.jpg" alt="KCPR mug"></img>
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
    <input type="hidden" name="cmd" value="_xclick">
    <input type="hidden" name="business" value="tbourne@calpoly.edu">
@@ -27,13 +63,23 @@ function print_content() {
    <input type="hidden" name="button_subtype" value="services">
    <input type="hidden" name="no_note" value="0">
    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynow_LG.gif:NonHostedGuest">
-   <input type="hidden" name="on0" value="Value">Donate</td></tr><tr><td>
-   <input type="radio" name="os0" value="Option 1">$5.00</option>
-   <input type="radio" name="os0" value="Option 2">$10.00</option>
-   <input type="radio" name="os0" value="Option 3">$25.00</option>
-   <input type="radio" name="os0" value="Option 4">$50.00</option>
-   <input type="radio" name="os0" value="Option 5">$100.00</option>
-   <input type="radio" name="os0" value="Option 6">$250.00</option>
+   <!--table>
+   <tr><td><input type="hidden" name="on0" value="Value">Donate</td></tr><tr><td>
+   <select name="os0">
+   <option value="Option 1">$5.00</option>
+   <option value="Option 2">$10.00</option>
+   <option value="Option 3">$25.00</option>
+   <option value="Option 4">$50.00</option>
+   <option value="Option 5">$100.00</option>
+   <option value="Option 6">$250.00</option>
+   </select> </td></tr>
+   </table-->
+   <input type='radio' name='os0' value="Option 1">5.00<br>
+   <input type='radio' name='os0' value="Option 2">10.00<br>
+   <input type='radio' name='os0' value="Option 3">25.00<br>
+   <input type='radio' name='os0' value="Option 4">50.00<br>
+   <input type='radio' name='os0' value="Option 5">100.00<br>
+   <input type='radio' name='os0' value="Option 6">250.00<br>
    <input type="hidden" name="currency_code" value="USD">
    <input type="hidden" name="option_select0" value="Option 1">
    <input type="hidden" name="option_amount0" value="5.00">
@@ -58,4 +104,7 @@ function print_content() {
    
    </form>
 
-   </div>
+</div>
+</div>
+<?php
+   }
