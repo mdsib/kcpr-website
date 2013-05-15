@@ -14,7 +14,7 @@ function print_content() {
    <input type="hidden" name="button_subtype" value="services">
    <input type="hidden" name="no_note" value="0">
    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynow_LG.gif:NonHostedGuest">
-   <table>
+   <!--table>
    <tr><td><input type="hidden" name="on0" value="Value">Donate</td></tr><tr><td>
    <select name="os0">
    <option value="Option 1">$5.00</option>
@@ -24,7 +24,13 @@ function print_content() {
    <option value="Option 5">$100.00</option>
    <option value="Option 6">$250.00</option>
    </select> </td></tr>
-   </table>
+   </table-->
+   <input type='radio' name='os0' value="Option 1">5.00<br>
+   <input type='radio' name='os0' value="Option 2">10.00<br>
+   <input type='radio' name='os0' value="Option 3">25.00<br>
+   <input type='radio' name='os0' value="Option 4">50.00<br>
+   <input type='radio' name='os0' value="Option 5">100.00<br>
+   <input type='radio' name='os0' value="Option 6">250.00<br>
    <input type="hidden" name="currency_code" value="USD">
    <input type="hidden" name="option_select0" value="Option 1">
    <input type="hidden" name="option_amount0" value="5.00">
