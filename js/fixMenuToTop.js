@@ -1,12 +1,3 @@
-$(window).load(function() {
-    $('div.post').each(function() {
-        $(this).minHeight($(this).find('img').height() +
-        $(this).find('h2').height() +
-        (2 * $(this).find('date').height())); 
-    });
-});
-
-
 $(window).scroll(function(){
     if (document.body.scrollTop >= 95)
     {

@@ -1,0 +1,22 @@
+#parent
+{
+   width:800px;
+   margin:0px auto;
+   background:#f55;
+}
+
+#image
+{
+   width:25%;
+   float:left;
+}
+
+img
+{
+   width:100%;
+}
+
+#foot
+{
+   clear:both;
+}
