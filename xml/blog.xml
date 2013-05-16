@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<blog>
+   <post>
+      <date>date happening</date>
+      <time>time happening</time>
+      <author>author happening</author>
+      <image>images/favicon.ico</image>
+      <text>text happening</text>
+   </post>
+
+   <post>
+      <date>date happening</date>
+      <time>time happening</time>
+      <author>author happening</author>
+      <image>images/favicon.ico</image>
+      <text>text happening</text>
+   </post>
+
+   <post>
+      <date>date happening</date>
+      <time>time happening</time>
+      <author>author happening</author>
+      <image>images/favicon.ico</image>
+      <text>text happening</text>
+   </post>
+
+   <post>
+      <date>date happening</date>
+      <time>time happening</time>
+      <author>author happening</author>
+      <image>images/favicon.ico</image>
+      <text>text happening</text>
+   </post>
+</blog>
