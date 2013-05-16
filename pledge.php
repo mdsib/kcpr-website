@@ -44,7 +44,7 @@
             DONATE AND GET COOL STUFF
          </div>
       </div>
-      <div class="content" id="pledge_content">
+      <div id="content">
       <!--thermometer begins here -->
       <!--thermometer ends here -->
 <div id="pledge_video">

@@ -120,8 +120,12 @@ a.ajax-link:hover
 {
 }
 
+#ajax_content
+{
+   width:100%;
+}
 
-.content
+#content
 {
    margin:10px auto;
    margin-top:0px;

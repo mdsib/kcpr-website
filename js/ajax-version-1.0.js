@@ -9,8 +9,8 @@ function set_ajax_link( el, event ){
         load_page_content( url );
 }
 function load_page_content( url ){
-        $("#content").load( url, { 'ajax': 'true' }, function(){
-                $('#content a.ajax-link').click( function( event ) {
+        $("#ajax_content").load( url, { 'ajax': 'true' }, function(){
+                $('#ajax_content a.ajax-link').click( function( event ) {
                         set_ajax_link( $(this), event );
                 });
         });
