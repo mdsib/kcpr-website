@@ -61,11 +61,14 @@ function print_header($title)
             <a href="javascript:onclick()">
             <div id="play_button">
             </div></a>
-            <div class="now_playing">
+            <div id="pledge_banner">
+            <a class="ajax-link" href="pledge.php">DONATE AND HELP US STAY ON AIR!</a>
+            </div>
+            <!--div class="now_playing">
             <show>ON THE AIR: OPEN SORCERY</show><br>
             <artist>Dudes with Cigars</artist> -
             <song>Le Epic Defeat</song>
-            </div>
+            </div-->
          </div>
          <div id="fake_header"></div>
          <div id="menu_container">

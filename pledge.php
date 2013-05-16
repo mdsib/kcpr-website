@@ -38,10 +38,11 @@
 ?>
       <div id="ajax_content" class="border-module">
       <div id="pledge_title_area"> 
-         <div id="pledge_title"><cursive>45th anniversary edition</cursive><br></font>PLEDGE DRIVE</div>
-      <?php print_thermometer(); ?>
+         <div id="pledge_title"><cursive>45th anniversary edition</cursive><br>PLEDGE DRIVE</div> <?php print_thermometer(); ?>
          <div id="donate_button">
-            DONATE AND GET COOL STUFF
+            <a href="#footer">
+               DONATE AND GET COOL STUFF
+            </a>
          </div>
       </div>
       <div id="content">
@@ -74,12 +75,38 @@ To show you how much we care, we'll give you some cool stuff in return.<br><br>
    <option value="Option 6">$250.00</option>
    </select> </td></tr>
    </table-->
-   <input type='radio' name='os0' value="Option 1">5.00<br>
-   <input type='radio' name='os0' value="Option 2">10.00<br>
-   <input type='radio' name='os0' value="Option 3">25.00<br>
-   <input type='radio' name='os0' value="Option 4">50.00<br>
-   <input type='radio' name='os0' value="Option 5">100.00<br>
-   <input type='radio' name='os0' value="Option 6">250.00<br>
+   <div class="prize">
+   <div class="donate_amount"><input type='radio' name='os0' value="Option 1">5.00<br></div>
+   Giving just for the skae of giving. Thanks for your support, we really appreciate it!
+   </div>
+
+   <div class="prize">
+   <div class="donate_amount"><input type='radio' name='os0' value="Option 2">10.00<br></div>
+   Get a tote bag, shark bottle opener, and magnet.
+   </div>
+
+   <div class="prize">
+   <div class="donate_amount"><input type='radio' name='os0' value="Option 3">25.00<br></div>
+   Get some KCPR sunglasses, a magnet and a bumper sticker.
+   </div>
+
+   <div class="prize">
+   <div class="donate_amount"><input type='radio' name='os0' value="Option 4">50.00<br></div>
+   Get an exclusive KCPR mug, bumper sticker, bottle opener, and tote bag. On top of that, you get a DJ love note, written personally and with love just for you. Hang it on your wall, frame it, keep it safe and close to your heart. <3
+   </div>
+
+   <div class="prize">
+   <div class="donate_amount"><input type='radio' name='os0' value="Option 5">100.00<br></div>
+   Get everything from from previous rewards, and a personalized mix CD! Give us three adjectives and your name and we'll come up with something that will shake your booty off, or maybe something that will cause you to relax! It's a mystery CD for an awesome supporter.
+
+   </div>
+
+   <div class="prize">
+   <div class="donate_amount"><input type='radio' name='os0' value="Option 6">250.00<br></div>
+   <div class="donate_amount"><input type='radio' name='os0' value="Option 7">500.00<br></div>
+   OMG! We literally LOVE you! To prove it, you can get everything from previous rewards, a personally died Tshirt, a hug from your favorite DJ and a guest spot on their show! A lifechanging experience. Only donate this much if you are ready to change your life in a positive way.
+   </div>
+
    <input type="hidden" name="currency_code" value="USD">
    <input type="hidden" name="option_select0" value="Option 1">
    <input type="hidden" name="option_amount0" value="5.00">
@@ -93,6 +120,8 @@ To show you how much we care, we'll give you some cool stuff in return.<br><br>
    <input type="hidden" name="option_amount4" value="100.00">
    <input type="hidden" name="option_select5" value="Option 6">
    <input type="hidden" name="option_amount5" value="250.00">
+   <input type="hidden" name="option_select6" value="Option 7">
+   <input type="hidden" name="option_amount6" value="500.00">
    <input type="hidden" name="option_index" value="0">
    <input type="image"
    src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg"
