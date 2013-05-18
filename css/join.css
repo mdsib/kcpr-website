@@ -1,31 +1,20 @@
 #join .title
 {
    font-size:55.2pt;
-   line-height:90%;
    margin: 0px 0px 10px 0px;
-}
-
-#join .banner
-{
-   background:#000;
-   color:#fff;
-   font-size:28pt;
-   margin-bottom:10px;
-   text-align:center;
 }
 
 #join .title radio
 {
    font-size:110pt;
    font-weight:bolder;
-   line-height:95%;
 }
 
 #join .title face
 {
    font-size:140pt;
    font-weight:bold;
-   line-height:80%;
+   line-height:50%;
 }
 
 #join .title img
@@ -48,6 +37,7 @@
    text-align:center;
    padding:10px;
    display:block;
+   z-index:10;
 }
 
 #join .button:hover

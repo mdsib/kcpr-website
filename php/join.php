@@ -1,9 +1,8 @@
-
    <div id="join" class="content">
    <div class="title">
    <img src="images/kcpr_radio_face.jpg">
    BRING YOUR <radio>RADIO</radio><br /><face>FACE</face> </div>
-<a target="_blank" href="documents/KCPRinternApplication.PDF"><div class="button">THE APPLICATION</div></a>
+<a target="_blank" href="documents/KCPRinternApplication.PDF"><div class="button">APPLICATION</div></a>
    <div class="description">
    
    <p>
@@ -25,7 +24,5 @@ Accepted interns are required to attend <b>mandatory classes</b>from 6:10-7pm on
 <br><br>
 <b>Air Staff Instructor Email:</b> kcpr91.3.asi [at] gmail.com
 </p>
-
-
-   </div>
+</div>
 
