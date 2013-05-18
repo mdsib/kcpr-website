@@ -90,7 +90,7 @@ div.menu
    margin:0px auto;
 }
 
-a.ajax-link
+div.menu_link
 {
    color: #FFFFFF;
    text-decoration:none;

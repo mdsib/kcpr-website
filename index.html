@@ -1,0 +1,64 @@
+<html>
+   <title>KCPR</title>
+   <head>
+
+      <link href='http://fonts.googleapis.com/css?family=Lato'
+      rel='stylesheet'
+      type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:300'
+      rel='stylesheet'
+      type='text/css'>
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/schedule.css">
+      <link rel="stylesheet" type="text/css" href="css/pledge.css">
+
+      <audio preload="false" id="streamer" name="media">
+      <source src="http://129.65.35.106:8000/KCPRHIGH" type="audio/aac">
+      <source src="http://129.65.35.106:8000/KCPRMP3" type="audio/mpeg">
+      </audio>
+
+      <link rel="shortcut icon" href='favicon.ico'/>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+
+   </head>
+
+   <body>
+      <div class="main">
+         <div id="heading">
+            <div class="logo">
+               <img class="logo"
+               id ="logo"
+               src="images/svg/kcpr_final_logo_horiz_color_nobg.svg" height=82px>
+               </img>
+            </div>
+            <a href="javascript:onclick()">
+               <div id="play_button">
+               </div>
+            </a>
+            <div id="pledge_banner">
+               <a>DONATE AND HELP US STAY ON AIR!</a>
+            </div>
+            <!--div class="now_playing">
+            <show>ON THE AIR: OPEN SORCERY</show><br>
+            <artist>Dudes with Cigars</artist> -
+            <song>Le Epic Defeat</song>
+            </div-->
+         </div>
+         <div id="fake_header"></div>
+         <div id="menu_container">
+            <div class="menu">
+               <div class="item" t="KCPR - NEWS" url="news">NEWS</div>
+               <div class="item" t="KCPR - SCHEDULE" url="schedule">SCHEDULE</div>
+               <div class="item" t="KCPR - JOIN" url="join">JOIN</div>
+               <div class="item" t="KCPR - ABOUT" url="about">ABOUT</div>
+               <div class="item" t="KCPR - PLEDGE" url="pledge">PLEDGE</div>
+            </div>
+         </div>
+         <div id="content">
+         </div>
+         <div id="footer">
+         </div>
+      </div>
+   </body>
+</html>

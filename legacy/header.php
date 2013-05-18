@@ -4,7 +4,7 @@ function print_header($title)
 ?>
    <html>
    <head>
-   <!-- web browsers like css here instead of in php files -->
+   
    <link href='http://fonts.googleapis.com/css?family=Lato'
    rel='stylesheet'
    type='text/css'>
@@ -44,6 +44,7 @@ function print_header($title)
          document.getElementById('play_button').style.borderLeft='45px solid #009999';
       }
    }
+
    </script>
 
    </head>
