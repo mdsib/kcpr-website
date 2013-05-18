@@ -1,3 +1,6 @@
+
+
+<div id="news" class="content">
 <?php
 
 $blog = simplexml_load_file("../xml/blog.xml", 'SimpleXMLIterator');
@@ -14,4 +17,6 @@ foreach($blog as $post) {
    echo "</div>";
 }?>
    </div>
+
+</div>
 

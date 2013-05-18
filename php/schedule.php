@@ -43,6 +43,9 @@ function print_calendar_time() {
    echo "</div>";
 }
 
+
+echo "<div class='content'>";
+
 $auto1 = array (
    "title" => "",
    "length" => 1,
@@ -646,5 +649,6 @@ for ($d=0; $d<7; $d++)
    }
    echo "</div>";
 }
+echo "</div>";
 echo "</div>";
 ?>

@@ -1,23 +1,37 @@
+function loadHash() {
+   var $hash = (window.location.hash).replace("#","");
+   var $php = "php/"+$hash+".php";
+
+   $.ajax( {
+      type: "GET",
+      url: $php
+   }).done(function(data) {
+      $("#ajax_content").html(data);
+   });
+};
+
 $(document).ready(function() {
    $(".item").click(function () {
       location.hash = $(this).attr("url");
    });
 
    window.onhashchange = function() {
-      var $hash = (window.location.hash).replace("#","");
-      var $php = "php/"+$hash+".php";
-      alert($php);
-
-      $.ajax( {
-         type: "GET",
-         url: $php
-      }).done(function(data) {
-         $("#content").html(data);
-      });
+      loadHash();
    };
 
-   window.location.hash = "#news";
+   //refresh works
+   if(window.location.hash != "") {
+      loadHash();
+   } else {
+      location.hash = "news";
+      loadHash();
+   }
+   
+   $("#play_button").click(function() {
+   });
+
 });
+
 
 /*$(window).scroll(function(){
   if (document.body.scrollTop >= 95)

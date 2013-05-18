@@ -15,6 +15,7 @@ function print_thermometer()
    </a>
    </div>
    </div>
+<div id="pledge" class="content">
    <!--thermometer begins here -->
    <!--thermometer ends here -->
    <div id="pledge_video">
@@ -101,3 +102,4 @@ function print_thermometer()
    <img alt="" border="0" src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" width="1" height="1">
 
    </form>
+   </div>
