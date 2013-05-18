@@ -89,26 +89,19 @@ div.logo
    position:absolute;
    top:95px;
 }
-div.menu
+#menu_container .menu
 {
    width:700px;
    margin:0px auto;
 }
 
-div.menu_link
+#menu_container .item
 {
    color: #FFFFFF;
    text-decoration:none;
-   fill:red;
 }
    
-a.ajax-link:visited
-{
-   color: #FFFFFF;
-   text-decoration:none;
-}
-
-a.ajax-link:hover
+#menu_container .item:hover
 {
    color: #FF5555;
    text-decoration:none;

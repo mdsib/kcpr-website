@@ -1,3 +1,4 @@
+         <div id="about" class="content">
          <a href="http://cool.com/"><div id="left_button" class="text_button">
             Meet our DJs
          </div></a>
@@ -27,3 +28,4 @@
          <p>
             We have been broadcasting since 1968.
          </p>
+         </div>
