@@ -1,3 +1,8 @@
+a
+{
+   text-decoration:none;
+}
+
 .text_button
 {
     float:left;
@@ -173,7 +178,7 @@ div.post_heading
    width:100%;
 }
 
-#content
+.content
 {
    margin:10px auto;
    margin-top:0px;
