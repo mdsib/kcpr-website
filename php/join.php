@@ -20,6 +20,7 @@ Accepted interns are required to attend <b>mandatory classes</b> from 6:10-7pm o
 
 <h1>Get in Touch</h1>
 <p>
+<b>Air Staff Instructor Email:</b> kcpr91.3.asi [at] gmail.com<br><br>
 <b>Air Staff Instructor Office Hours:</b> At KCPR
 <ul>
 <li>Mondays 11am-12pm</li>
