@@ -38,7 +38,8 @@ function print_thermometer()
    <input type="hidden" name="button_subtype" value="services">
    <input type="hidden" name="no_note" value="0">
    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-   <input type="submit" class="donate_button" type="submit" name="submit" value="DONATE SOME BLAH BLAH GET SOME BLAH BLAH 1">
+   <button class="donate_button" type="submit" name="submit">DONATE $5</button><br>
+   Giving just for the sake of giving. Thanks for your support, we really appreciate it!
    </form>
 
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -51,7 +52,22 @@ function print_thermometer()
    <input type="hidden" name="button_subtype" value="services">
    <input type="hidden" name="no_note" value="0">
    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-   <button type="submit" name="submit"><div class="pledge_button">DONATE SOME BLAH BLAH GET SOME BLAH BLAH</div></button>
+   <button class="donate_button" type="submit" name="submit">DONATE $10</button><br>
+   Get a KCPR tote bag, shark bottle opener, and magnet.
+   </form>
+
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input type="hidden" name="cmd" value="_xclick">
+   <input type="hidden" name="business" value="tbourne@calpoly.edu">
+   <input type="hidden" name="lc" value="US">
+   <input type="hidden" name="amount" value="15.00">
+   <input type="hidden" name="item_name" value="KCPR Donation 15.00">
+   <input type="hidden" name="currency_code" value="USD">
+   <input type="hidden" name="button_subtype" value="services">
+   <input type="hidden" name="no_note" value="0">
+   <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+   <button class="donate_button" type="submit" name="submit">DONATE $15</button><br>
+   Get some KCPR sunglasses, a magnet and a bumper sticker.
    </form>
 
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -64,7 +80,8 @@ function print_thermometer()
    <input type="hidden" name="button_subtype" value="services">
    <input type="hidden" name="no_note" value="0">
    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-   <button class="donate_button" type="submit" name="submit">DONATE SOME BLAH BLAH GET SOME BLAH BLAH</button>
+   <button class="donate_button" type="submit" name="submit">DONATE $25</button><br>
+   Get cool KCPR stuff! TShirt, sunglasses, and magnet.
    </form>
 
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -77,7 +94,8 @@ function print_thermometer()
    <input type="hidden" name="button_subtype" value="services">
    <input type="hidden" name="no_note" value="0">
    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-   <button class="donate_button" type="submit" name="submit">DONATE SOME BLAH BLAH GET SOME BLAH BLAH</button>
+   <button class="donate_button" type="submit" name="submit">DONATE $50</button><br>
+   Get a KCPR mug, bumper sticker, bottle opener, and tote bag. On top of that, you get a DJ love note, written personally and with love just for you. Hang it on your wall, frame it, keep it safe and close to your heart.
    </form>
 
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -90,7 +108,8 @@ function print_thermometer()
    <input type="hidden" name="button_subtype" value="services">
    <input type="hidden" name="no_note" value="0">
    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-   <button class="donate_button" type="submit" name="submit">DONATE SOME BLAH BLAH GET SOME BLAH BLAH</button>
+   <button class="donate_button" type="submit" name="submit">DONATE $100</button><br>
+   Get everything from from previous rewards, and a personalized mix CD! Give us three adjectives and your name and we'll come up with something that may shake your booty off. It's a mystery CD for an awesome supporter.
    </form>
 
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -103,9 +122,12 @@ function print_thermometer()
    <input type="hidden" name="button_subtype" value="services">
    <input type="hidden" name="no_note" value="0">
    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-   <button class="donate_button" type="submit" name="submit">DONATE SOME BLAH BLAH GET SOME BLAH BLAH</button>
+   <button class="donate_button" type="submit" name="submit">DONATE $250</button>
+   <input type="hidden" name="amount" value="500.00">
+   <input type="hidden" name="item_name" value="KCPR Donation 500.00">
+   <button class="donate_button" type="submit" name="submit">or $500</button><br>
+   OMG! We literally LOVE you! To prove it, you can get everything from previous rewards, a personally died Tshirt, a hug from your favorite DJ and a guest spot on their show! A lifechanging experience. Only donate this much if you are ready to change your life in a positive way.
    </form>
-
    <!--form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
    <input type="hidden" name="cmd" value="_xclick">
    <input type="hidden" name="business" value="tbourne@calpoly.edu">

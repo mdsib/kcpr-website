@@ -29,6 +29,20 @@
     cursor:hand;
 }
 
+button.donate_button
+{
+   width:inherit;
+    text-align:center;
+    background:#f55;
+    font-size:20px;
+    font-family:"Lato";
+    padding:5px;
+}
+button.donate_button:hover
+{
+    background:#f33;
+}
+
 
 cursive{
    font-size: 30px;
