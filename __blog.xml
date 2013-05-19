@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<blog>
+   <post>
+      <date>May 20, 2013</date>
+      <time>12 am</time>
+      <title>Pledge Drive</title>
+      <image>images/heading.svg</image>
+      <text>Welcome to Pledge Week 2013! 
+
+      We only have pledge week once a year and
+      need your help to keep the station going. We appreciate all the
+      support and love you all have given and want to keep providing you
+      with quality broadcasting, so we are asking for donations.
+      
+      This year, we're
+      trying to raise money for general maintenence and a remote
+      broadcasting system for live shows, interviews, and stuff.
+      
+      Donate and you will get KCPR gear, personalized love messages,
+      mix CDs, or a tour of our station and guest spot on a show of
+      your choice! Thanks, from the DJs at KCPR, for keeping us going.
+      
+      
+      Keep radio, music, Cal Poly, the WORLD, and everything else RAMPED!
+      
+      </text>
+   </post>
+
+   <post>
+      <date>March 19, 2013</date>
+      <title>TITLE happening</title>
+      <time>time happening</time>
+      <author>author happening</author>
+      <image>images/favicon.ico</image>
+      <text>text happening</text>
+   </post>
+
+   <post>
+      <date>date happening</date>
+      <title>TITLE happening</title>
+      <time>time happening</time>
+      <author>author happening</author>
+      <image>images/favicon.ico</image>
+      <text>text happening</text>
+   </post>
+
+   <post>
+      <date>date happening</date>
+      <title>TITLE happening</title>
+      <time>time happening</time>
+      <author>author happening</author>
+      <image>images/favicon.ico</image>
+      <text>text happening</text>
+   </post>
+</blog>
