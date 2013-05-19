@@ -24,9 +24,89 @@ function print_thermometer()
 
    To show you how much we care, we'll give you some cool stuff in return.<br><br>
 
+   </div>
 
    <img class="pledge_gift" src="/images/pledge/kcpr_mug.jpg" alt="KCPR mug"></img>
+
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input type="hidden" name="cmd" value="_xclick">
+   <input type="hidden" name="business" value="tbourne@calpoly.edu">
+   <input type="hidden" name="lc" value="US">
+   <input type="hidden" name="amount" value="5.00">
+   <input type="hidden" name="item_name" value="KCPR Donation 5.00">
+   <input type="hidden" name="currency_code" value="USD">
+   <input type="hidden" name="button_subtype" value="services">
+   <input type="hidden" name="no_note" value="0">
+   <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+   <input type="submit" class="donate_button" type="submit" name="submit" value="DONATE SOME BLAH BLAH GET SOME BLAH BLAH 1">
+   </form>
+
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input type="hidden" name="cmd" value="_xclick">
+   <input type="hidden" name="business" value="tbourne@calpoly.edu">
+   <input type="hidden" name="lc" value="US">
+   <input type="hidden" name="amount" value="10.00">
+   <input type="hidden" name="item_name" value="KCPR Donation 10.00">
+   <input type="hidden" name="currency_code" value="USD">
+   <input type="hidden" name="button_subtype" value="services">
+   <input type="hidden" name="no_note" value="0">
+   <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+   <button type="submit" name="submit"><div class="pledge_button">DONATE SOME BLAH BLAH GET SOME BLAH BLAH</div></button>
+   </form>
+
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input type="hidden" name="cmd" value="_xclick">
+   <input type="hidden" name="business" value="tbourne@calpoly.edu">
+   <input type="hidden" name="lc" value="US">
+   <input type="hidden" name="amount" value="25.00">
+   <input type="hidden" name="item_name" value="KCPR Donation 25.00">
+   <input type="hidden" name="currency_code" value="USD">
+   <input type="hidden" name="button_subtype" value="services">
+   <input type="hidden" name="no_note" value="0">
+   <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+   <button class="donate_button" type="submit" name="submit">DONATE SOME BLAH BLAH GET SOME BLAH BLAH</button>
+   </form>
+
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input type="hidden" name="cmd" value="_xclick">
+   <input type="hidden" name="business" value="tbourne@calpoly.edu">
+   <input type="hidden" name="lc" value="US">
+   <input type="hidden" name="amount" value="50.00">
+   <input type="hidden" name="item_name" value="KCPR Donation 50.00">
+   <input type="hidden" name="currency_code" value="USD">
+   <input type="hidden" name="button_subtype" value="services">
+   <input type="hidden" name="no_note" value="0">
+   <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+   <button class="donate_button" type="submit" name="submit">DONATE SOME BLAH BLAH GET SOME BLAH BLAH</button>
+   </form>
+
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input type="hidden" name="cmd" value="_xclick">
+   <input type="hidden" name="business" value="tbourne@calpoly.edu">
+   <input type="hidden" name="lc" value="US">
+   <input type="hidden" name="amount" value="100.00">
+   <input type="hidden" name="item_name" value="KCPR Donation 100.00">
+   <input type="hidden" name="currency_code" value="USD">
+   <input type="hidden" name="button_subtype" value="services">
+   <input type="hidden" name="no_note" value="0">
+   <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+   <button class="donate_button" type="submit" name="submit">DONATE SOME BLAH BLAH GET SOME BLAH BLAH</button>
+   </form>
+
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input type="hidden" name="cmd" value="_xclick">
+   <input type="hidden" name="business" value="tbourne@calpoly.edu">
+   <input type="hidden" name="lc" value="US">
+   <input type="hidden" name="amount" value="250.00">
+   <input type="hidden" name="item_name" value="KCPR Donation 250.00">
+   <input type="hidden" name="currency_code" value="USD">
+   <input type="hidden" name="button_subtype" value="services">
+   <input type="hidden" name="no_note" value="0">
+   <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+   <button class="donate_button" type="submit" name="submit">DONATE SOME BLAH BLAH GET SOME BLAH BLAH</button>
+   </form>
+
+   <!--form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
    <input type="hidden" name="cmd" value="_xclick">
    <input type="hidden" name="business" value="tbourne@calpoly.edu">
    <input type="hidden" name="lc" value="US">
@@ -34,18 +114,51 @@ function print_thermometer()
    <input type="hidden" name="button_subtype" value="services">
    <input type="hidden" name="no_note" value="0">
    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynow_LG.gif:NonHostedGuest">
-   <!--table>
-   <tr><td><input type="hidden" name="on0" value="Value">Donate</td></tr><tr><td>
-   <select name="os0">
-   <option value="Option 1">$5.00</option>
-   <option value="Option 2">$10.00</option>
-   <option value="Option 3">$25.00</option>
-   <option value="Option 4">$50.00</option>
-   <option value="Option 5">$100.00</option>
-   <option value="Option 6">$250.00</option>
-   </select> </td></tr>
-   </table-->
-   <div class="prize">
+   <input type="hidden" name="value" value="10.00">
+   <input type="button" name="submit">
+   <table>
+   <tr><td>
+      <input type="hidden" name="on0" value="Value">Donate</td></tr><tr><td>
+      <select name="os0">
+      <option value="Option 1">$5.00</option>
+      <option value="Option 2">$10.00</option>
+      <option value="Option 3">$25.00</option>
+      <option value="Option 4">$50.00</option>
+      <option value="Option 5">$100.00</option>
+      <option value="Option 6">$250.00</option>
+      </select>
+   </td></tr>
+   </table>
+   <input type="hidden" name="currency_code" value="USD">
+   <input type="hidden" name="option_select0" value="Option 1">
+   <input type="hidden" name="option_amount0" value="5.00">
+   <input type="hidden" name="option_select1" value="Option 2">
+   <input type="hidden" name="option_amount1" value="10.00">
+   <input type="hidden" name="option_select2" value="Option 3">
+   <input type="hidden" name="option_amount2" value="25.00">
+   <input type="hidden" name="option_select3" value="Option 4">
+   <input type="hidden" name="option_amount3" value="50.00">
+   <input type="hidden" name="option_select4" value="Option 5">
+   <input type="hidden" name="option_amount4" value="100.00">
+   <input type="hidden" name="option_select5" value="Option 6">
+   <input type="hidden" name="option_amount5" value="250.00">
+   <input type="hidden" name="option_select6" value="Option 7">
+   <input type="hidden" name="option_amount6" value="500.00">
+   <input type="hidden" name="option_index" value="0">
+   <input
+      type="image"
+      src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg"
+      border="0"
+      name="submit"
+      alt="PayPal - The safer, easier way to pay online!"
+      value="10.00"
+      >
+   <img alt="" border="0" src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" width="1" height="1">
+
+   </form-->
+   </div>
+
+   <!--div class="prize">
    <div class="donate_amount"><input type='radio' name='os0' value="Option 1">5.00<br></div>
    Giving just for the skae of giving. Thanks for your support, we really appreciate it!
    </div>
@@ -75,31 +188,5 @@ function print_thermometer()
    <div class="donate_amount"><input type='radio' name='os0' value="Option 6">250.00<br></div>
    <div class="donate_amount"><input type='radio' name='os0' value="Option 7">500.00<br></div>
    OMG! We literally LOVE you! To prove it, you can get everything from previous rewards, a personally died Tshirt, a hug from your favorite DJ and a guest spot on their show! A lifechanging experience. Only donate this much if you are ready to change your life in a positive way.
-   </div>
+   </div-->
 
-   <input type="hidden" name="currency_code" value="USD">
-   <input type="hidden" name="option_select0" value="Option 1">
-   <input type="hidden" name="option_amount0" value="5.00">
-   <input type="hidden" name="option_select1" value="Option 2">
-   <input type="hidden" name="option_amount1" value="10.00">
-   <input type="hidden" name="option_select2" value="Option 3">
-   <input type="hidden" name="option_amount2" value="25.00">
-   <input type="hidden" name="option_select3" value="Option 4">
-   <input type="hidden" name="option_amount3" value="50.00">
-   <input type="hidden" name="option_select4" value="Option 5">
-   <input type="hidden" name="option_amount4" value="100.00">
-   <input type="hidden" name="option_select5" value="Option 6">
-   <input type="hidden" name="option_amount5" value="250.00">
-   <input type="hidden" name="option_select6" value="Option 7">
-   <input type="hidden" name="option_amount6" value="500.00">
-   <input type="hidden" name="option_index" value="0">
-   <input type="image"
-   src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg"
-   border="0"
-   name="submit"
-   alt="PayPal - The safer, easier way to pay online!">
-   <!--img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"-->
-   <img alt="" border="0" src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" width="1" height="1">
-
-   </form>
-   </div>

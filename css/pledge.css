@@ -15,6 +15,21 @@
    background:red;
    background-image:url('images/heading.svg');
 }
+
+.donate_button
+{
+    text-align:center;
+    background:#f55;
+    font-size:20px;
+    font-family:"Lato";
+    margin:15px auto;
+    margin-top:37px;
+    padding:10px;
+    width:330px;
+    cursor:hand;
+}
+
+
 cursive{
    font-size: 30px;
    line-height:5%;
