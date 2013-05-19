@@ -1,5 +1,5 @@
          <div id="about" class="content">
-         <a href="http://cool.com/"><div id="left_button" class="text_button">
+         <!--a href="http://cool.com/"><div id="left_button" class="text_button">
             Meet our DJs
          </div></a>
          <div class="text_button">
@@ -7,8 +7,9 @@
          </div>
          <div id="right_button" class="text_button">
             Become a DJ
-         </div>
-         <img width=100% height=200px src="http://www.newtimesslo.com/images/cms/sized/Auction-11-27.jpg"></img>
+         </div-->
+         <img width=100% src="http://www.newtimesslo.com/images/cms/sized/Auction-11-27.jpg"></img>
+         <h1>Who We Are</h1>
          <p>
             KCPR is a stereo FM radio station broadcasting throughout the Central
             Coast of California on 91.3 MHz. It is the college station of Cal Poly,
@@ -28,4 +29,5 @@
          <p>
             We have been broadcasting since 1968.
          </p>
+         <h1>What we do</h1>
          </div>
