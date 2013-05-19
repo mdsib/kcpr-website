@@ -1,3 +1,11 @@
+#pledge .centered
+{
+   margin:0px auto;      
+   display:block;
+   width:200px;
+   
+}
+
 #pledge_banner
 {
    position:absolute;
