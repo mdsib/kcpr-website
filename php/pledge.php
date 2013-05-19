@@ -37,15 +37,15 @@ function print_thermometer()
    Giving just for the sake of giving. Thanks for your support, we really appreciate it!
 
    <input type="hidden" name="amount" value="10.00">
-   <button class="donate_button" type="submit" name="submit">DONATE $10: Tote Bag, Bottle Opener, and Magnet</button><br>
+   <button class="donate_button" type="submit" name="submit">DONATE $10: Tote Bag + Bottle Opener + Magnet</button><br>
 
    <input type="hidden" name="amount" value="15.00">
    <input type="hidden" name="item_name" value="KCPR Donation 15.00">
-   <button class="donate_button" type="submit" name="submit">DONATE $15: Everything Above + KCPR Sunglasses</button><br>
+   <button class="donate_button" type="submit" name="submit">DONATE $15: Everything Above + Sunglasses</button><br>
 
    <input type="hidden" name="amount" value="25.00">
    <input type="hidden" name="item_name" value="KCPR Donation 25.00">
-   <button class="donate_button" type="submit" name="submit">DONATE $25: Everything Above + KCPR mug</button><br>
+   <button class="donate_button" type="submit" name="submit">DONATE $25: Everything Above + Mug</button><br>
 
    <input type="hidden" name="amount" value="50.00">
    <input type="hidden" name="item_name" value="KCPR Donation 50.00">
@@ -62,8 +62,8 @@ function print_thermometer()
    <button class="donate_button" type="submit" name="submit">DONATE $250</button>
    <input type="hidden" name="amount" value="500.00">
    <input type="hidden" name="item_name" value="KCPR Donation 500.00">
-   <button class="donate_button" type="submit" name="submit">or $500: Everything + Hug & guest spot on ANY DJ's Show</button><br>
-   OMG! We literally LOVE you! To prove it, you can get everything from previous rewards, a personally died Tshirt, a hug from your favorite DJ and a guest spot on their show! A lifechanging experience. Only donate this much if you are ready to change your life in a positive way.
+   <button class="donate_button" type="submit" name="submit">or $500: Everything + Hug + guest spot on ANY DJ's Show</button><br>
+   <big><i>OMG!</i></big> We literally <big>LOVE</big> you! To prove it, you can get everything from previous rewards, a personally dyed t-shirt, a hug from your favorite DJ, and a guest spot on their show! A lifechanging experience. Only donate this much if you are ready to change your life in a positive way.
 
    </form>
    </div>
