@@ -37,33 +37,35 @@ function print_thermometer()
    Giving just for the sake of giving. Thanks for your support, we really appreciate it!
 
    <input type="hidden" name="amount" value="10.00">
-   <button class="donate_button" type="submit" name="submit">DONATE $10: Tote Bag + Bottle Opener + Magnet</button><br>
+   <button class="donate_button" type="submit" name="submit">DONATE $10</button><br>
+   Get KCPR-style items: A sturdy tote bag for groceries, shark shaped bottle opener, and a magnet to put somewhere special.<br>
 
    <input type="hidden" name="amount" value="15.00">
    <input type="hidden" name="item_name" value="KCPR Donation 15.00">
-   <button class="donate_button" type="submit" name="submit">DONATE $15: Everything Above + Sunglasses</button><br>
-
+   <button class="donate_button" type="submit" name="submit">DONATE $15</button><br>
+   Get everything from $10, plus KCPR apparel brand sunglasses to look rad on a hot day.<br>
    <input type="hidden" name="amount" value="25.00">
    <input type="hidden" name="item_name" value="KCPR Donation 25.00">
-   <button class="donate_button" type="submit" name="submit">DONATE $25: Everything Above + Mug</button><br>
+   <button class="donate_button" type="submit" name="submit">DONATE $25</button><br>
+   Get KCPR stuff: Everything from $15, plus a sweet KCPR mug for loose leaf tea or Chemex coffee.<br>
 
    <input type="hidden" name="amount" value="50.00">
    <input type="hidden" name="item_name" value="KCPR Donation 50.00">
-   <button class="donate_button" type="submit" name="submit">DONATE $50: Everything Above + Shirt + Love Letter</button><br>
-   On top of everything else, you get a DJ love note, written personally and with love just for you. Hang it on your wall, frame it, keep it safe and close to your heart.<br>
+   <button class="donate_button" type="submit" name="submit">DONATE $50</button><br>
+   On top of everything above, you get a DJ love note, written personally and with love just for you. Hang it on your wall, frame it, keep it safe and close to your heart.<br>
 
    <input type="hidden" name="amount" value="100.00">
    <input type="hidden" name="item_name" value="KCPR Donation 100.00">
-   <button class="donate_button" type="submit" name="submit">DONATE $100: Everything Above + Personalized Mix CD</button><br>
-   Get everything from from previous rewards, and a personalized mix CD! Give us three adjectives and your name and we'll come up with something that may shake your booty off. It's a mystery CD for an awesome supporter.<br>
+   <button class="donate_button" type="submit" name="submit">DONATE $100</button><br>
+   Get KCPR'd out with every KCPR item, a love note, and... A personalized mix CD! Give us three adjectives and your name and we'll come up with something that may shake your booty off. It's a mystery CD for an awesome supporter.<br>
 
    <input type="hidden" name="amount" value="250.00">
    <input type="hidden" name="item_name" value="KCPR Donation 250.00">
    <button class="donate_button" type="submit" name="submit">DONATE $250</button>
    <input type="hidden" name="amount" value="500.00">
    <input type="hidden" name="item_name" value="KCPR Donation 500.00">
-   <button class="donate_button" type="submit" name="submit">or $500: Everything + Hug + guest spot on ANY DJ's Show</button><br>
-   <big><i>OMG!</i></big> We literally <big>LOVE</big> you! To prove it, you can get everything from previous rewards, a personally dyed t-shirt, a hug from your favorite DJ, and a guest spot on their show! A lifechanging experience. Only donate this much if you are ready to change your life in a positive way.
+   <button class="donate_button" type="submit" name="submit">or $500</button><br>
+   <big><i>OMG!</i></big> We literally <big>LOVE</big> you!<br> To prove it, you can get everything from previous rewards, a personally dyed t-shirt, a hug from your favorite DJ, and a guest spot on their show! A lifechanging experience. Only donate this much if you are ready to change your life in a positive way.
 
    </form>
    </div>
