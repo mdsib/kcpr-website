@@ -27,9 +27,16 @@
 
 <h1>What You Can Do</h1>
 <p>
+   Listen, we'd like that.
+</p>
+<p>
    We are a volunteer station at a public college, providing ad free radio to
    the Central Coast. In other words, we <i>need</i> your support to keep doing it!
-   We'd appreciate it if you write us a nice letter or check. Or donate online! Or
-   even just listen, we'd like that.
+   We'd appreciate it if you write us a nice letter or check. Or donate online!
+</p>
+<p>
+Of course, you can also join our station! We are thrilled to have and train budding DJS.
+We allow community members and students, and you have nothing to lose! Check the "join"
+tab for info.
 </p>
 </div>

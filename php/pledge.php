@@ -37,6 +37,7 @@ function print_thermometer()
    Giving just for the sake of giving. Thanks for your support, we really appreciate it! Really!
 
    <input type="hidden" name="amount" value="10.00">
+   <input type="hidden" name="item_name" value="KCPR Donation 10.00">
    <center><button class="donate_button" type="submit" name="submit">DONATE $10</button><br></center>
    Get KCPR-style items: A sturdy tote bag for groceries, shark shaped bottle opener, and a magnet to put somewhere special.<br>
 

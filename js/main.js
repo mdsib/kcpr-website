@@ -11,6 +11,7 @@ $(document).ready(function() {
          window.history.pushState(data, "", "");
          $("#ajax_content").html(data);
       });
+      window.scrollTo(95,0);
    });
 
    window.onpopstate = function(e) {
@@ -28,13 +29,13 @@ $(document).ready(function() {
    });
    //alert(window.location.pathname);
 
-   $("#play_button").click(function() {
-      alert("play");
-      $("#streamer").get(0).play();
-      alert(document.getElementById('streamer').paused);
-      //alert($("#streamer").paused);
-   });
-
+//   $("#play_button").click(function() {
+//      alert("play");
+//      $("#streamer").get(0).play();
+//      alert(document.getElementById('streamer').paused);
+//      //alert($("#streamer").paused);
+//   });
+//
 });
 
 

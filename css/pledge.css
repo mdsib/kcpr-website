@@ -24,8 +24,9 @@ text-align:justify;
    background:#f55;
    width:200px;
    font: 15pt "Lato";
-   padding:5px;
+   padding:10px 10px 5px 5px;
    z-index:-1;
+   text-align:justify;
 }
 .donate_amount
 {
