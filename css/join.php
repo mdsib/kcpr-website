@@ -1,27 +1,20 @@
 #join .title
 {
    font-size:55.2pt;
-   height:370px;
-   line-height:97px;
-   margin-top:-15px;
+   margin: 0px 0px 10px 0px;
 }
 
-#join .title .radio
+#join .title radio
 {
-   font-size:112pt;
+   font-size:110pt;
    font-weight:bolder;
-   margin-bottom:-50px;
-   margin-left:-6px;
-
 }
 
 #join .title face
 {
-   font-size:144pt;
+   font-size:140pt;
    font-weight:bold;
    line-height:50%;
-   margin-left:-11px;
-
 }
 
 #join .title img
@@ -30,7 +23,6 @@
    float:right;
    top:0px;
    width:230px;
-   margin-top:10px;
 }
 
 #join h1
@@ -46,7 +38,6 @@
    padding:10px;
    display:block;
    z-index:10;
-   position:relative;
 }
 
 #join .button:hover
@@ -54,7 +45,7 @@
    background:#088;
 }
    
-#join a
+#join a:visited
 {
    color:#fff;
 }
