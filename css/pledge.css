@@ -29,6 +29,20 @@
     cursor:hand;
 }
 
+button.donate_button
+{
+    width:inherit;
+    text-align:center;
+    background:#3b7;
+    font-size:20px;
+    font-family:"Lato";
+    padding:5px;
+}
+button.donate_button:hover
+{
+    background:#0d6;
+}
+
 
 cursive{
    font-size: 30px;
@@ -87,7 +101,7 @@ cursive{
 
 #pledge_title_area {
    font-size:100;
-   height:300px;
+   height:200px;
    width:100%;
    margin:0px auto;
    text-align:center;
