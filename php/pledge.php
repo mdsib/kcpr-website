@@ -75,7 +75,9 @@ function print_thermometer()
    <input type="hidden" name="amount" value="25.00">
    <input type="hidden" name="item_name" value="KCPR Donation 25.00">
    <center><button class="donate_button" type="submit" name="submit">DONATE $25</button><br></center>
-   Get KCPR stuff: Everything from $15, plus a sweet KCPR mug for loose leaf tea or Chemex coffee.<br>
+   Get KCPR stuff: Everything from $15, plus a sweet KCPR mug for loose leaf tea or Chemex coffee, AND
+   a KCPR TShirt you could wear for weeks at a time and no one would care (it's that radical).
+   <br>
    </form>
 
    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">

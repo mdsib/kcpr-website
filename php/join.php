@@ -2,7 +2,7 @@
    <div class="title">
    <img src="images/kcpr_radio_face.jpg">
    BRING YOUR <div class="radio">RADIO</div><br /><face>FACE</face> </div>
-<a target="_blank" href="documents/KCPRinternApplication.PDF"><div class="button">APPLICATION</div></a>
+<a target="_blank" href="docs/KCPRapplication.PDF"><div class="button">APPLICATION</div></a>
    <div class="description">
    
    <p>
