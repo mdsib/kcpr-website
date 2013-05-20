@@ -1,3 +1,13 @@
+#pledge
+{
+   text-align:justify;
+}
+
+form
+{
+text-align:justify;
+}
+
 #pledge .centered
 {
    margin:0px auto;      
@@ -13,10 +23,9 @@
    height:85px;
    background:#f55;
    width:200px;
-   font: 18pt "Lato";
+   font: 15pt "Lato";
    padding:5px;
    z-index:-1;
-   border-left:10px solid #d22;
 }
 .donate_amount
 {
