@@ -13,9 +13,9 @@
       <link rel="stylesheet" type="text/css" href="css/pledge.css">
       <link rel="stylesheet" type="text/css" href="css/join.css">
 
-      <audio preload="false" id="streamer" name="media">
-      <source src="http://129.65.35.106:8000/KCPRHIGH" type="audio/aac">
-      <source src="http://129.65.35.106:8000/KCPRMP3" type="audio/mpeg">
+      <audio controls preload="false" id="streamer" name="media" src="http://129.65.35.106:8000/KCPRMP3;">
+      <!--source src="http://129.65.35.106:8000/KCPRHIGH" type="audio/aac">
+      <source src="http://129.65.35.106:8000/KCPRMP3" type="audio/mpeg"-->
       </audio>
 
       <link rel="shortcut icon" href='favicon.ico'/>
@@ -33,10 +33,8 @@
                src="images/svg/kcpr_final_logo_horiz_color_nobg.svg" height=82px>
                </img>
             </div>
-            <a href="javascript:onclick()">
                <div id="play_button">
                </div>
-            </a>
             <div id="pledge_banner">
                <a>DONATE AND HELP US STAY ON AIR!</a>
             </div>
@@ -49,11 +47,11 @@
          <div id="fake_header"></div>
          <div id="menu_container">
             <div class="menu">
-               <a href=#news><div class="item" t="KCPR - NEWS">NEWS</div></a>
-               <a href=#schedule><div class="item" t="KCPR - SCHEDULE">SCHEDULE</div></a>
-               <a href=#join><div class="item" t="KCPR - JOIN">JOIN</div></a>
-               <a href=#about><div class="item" t="KCPR - ABOUT">ABOUT</div></a>
-               <a href=#pledge><div class="item" t="KCPR - PLEDGE">PLEDGE</div></a>
+               <div class="item" url="/news" t="KCPR - NEWS">NEWS</div>
+               <div class="item" url="/schedule" t="KCPR - SCHEDULE">SCHEDULE</div>
+               <div class="item" url="/join" t="KCPR - JOIN">JOIN</div>
+               <div class="item" url="/about" t="KCPR - ABOUT">ABOUT</div>
+               <div class="item" url="/pledge" t="KCPR - PLEDGE">PLEDGE</div>
             </div>
          </div>
          <div id="ajax_content">
