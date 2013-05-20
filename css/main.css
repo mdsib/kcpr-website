@@ -93,7 +93,7 @@ div.logo
    background:#000;
    width:100%;
    margin:0px;
-   z-index:1;
+   z-index:10;
    position:absolute;
    top:95px;
 }
