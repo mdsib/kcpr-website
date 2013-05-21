@@ -37,6 +37,7 @@
 
 .auto, .special, .regular, .talk, .news
 {
+   -moz-box-sizing:border-box;
    box-sizing:border-box;
    padding:1px;
    padding-top:0px;
