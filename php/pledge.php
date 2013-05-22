@@ -1,14 +1,14 @@
 <?php
 function print_thermometer()
 {
-   $current = 500;
+   $current = 1000;
    echo "<div id = 'thermometer_container'>";
-   echo "<div id = 'thermometer_progress' style='width:".(($current / 5000) * 100)."%'>".$current."</div>";
+   echo "<div id = 'thermometer_progress' style='width:".(($current / 5000) * 100)."%'>$".$current."</div>";
    echo "</div>";
 }?>
 
 <div id="pledge_title_area">
-   <div id="pledge_title"><cursive>45th anniversary edition</cursive><br>PLEDGE DRIVE</div> <!--?php print_thermometer(); ?-->
+   <div id="pledge_title"><cursive>45th anniversary edition</cursive><br>PLEDGE DRIVE</div> <?php print_thermometer(); ?>
    <font size="15pt" color="#ddd">(DONATE AND GET COOL STUFF)</font>
    </div>
 </div>
