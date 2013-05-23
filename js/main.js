@@ -11,7 +11,7 @@ $(document).ready(function() {
          window.history.pushState(data, "", "");
          $("#ajax_content").html(data);
       });
-      window.scrollTo(95,0);
+      window.scrollTo(0,95);
    });
 
    window.onpopstate = function(e) {
@@ -40,18 +40,20 @@ $(document).ready(function() {
 
 
 $(window).scroll(function(){
+   var menu = document.getElementById('menu_container');
+   var head = document.getElementById('heading');
    if (document.body.scrollTop >= 95)
-{
-   document.getElementById('menu_container').style.position="fixed";
-   document.getElementById('menu_container').style.top = "0";
-   document.getElementById('heading').style.top = "-96";
-}
-else
-{
-   document.getElementById('heading').style.top=-document.body.scrollTop;
-   document.getElementById('menu_container').style.position="fixed";
-   document.getElementById('menu_container').style.top = 95 - document.body.scrollTop;
-}
+   {
+      menu.style.position="fixed";
+      menu.style.top = "0";
+      head.style.top = "-96";
+   }
+   else
+   {
+      head.style.top=-document.body.scrollTop;
+      menu.style.position="fixed";
+      menu.style.top = 95 - document.body.scrollTop;
+   }
 });
 
 /*function onclick() {
