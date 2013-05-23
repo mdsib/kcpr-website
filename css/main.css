@@ -78,7 +78,16 @@ div.now_playing
     max-width:300px;
 }
 
-div.item
+.menu .item a:visited
+{
+   color:white;
+}
+.menu .item a:hover
+{
+   color:#f55;
+}
+   
+.menu .item
 {
     float:left;
     width:20%;
@@ -164,6 +173,7 @@ div.logo
 div.post_heading
 {
    color:#fff;
+   background:#3b7;
    background-image:url('/images/heading.svg');
    background-attachment:fixed;
    width:100%;

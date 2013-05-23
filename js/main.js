@@ -38,7 +38,6 @@ $(document).ready(function() {
 //
 });
 
-
 $(window).scroll(function(){
    var menu = document.getElementById('menu_container');
    var head = document.getElementById('heading');

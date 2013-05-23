@@ -1,8 +1,5 @@
-<!--[if IE]>
-<meta http-equiv="refresh" content="0; url=news.php" />
-<![endif]-->
 <html>
-   <title>KCPR</title>
+   <title>KCPR - HOME</title>
    <head>
 
       <link href='http://fonts.googleapis.com/css?family=Lato'
@@ -15,25 +12,18 @@
       <link rel="stylesheet" type="text/css" href="css/schedule.css">
       <link rel="stylesheet" type="text/css" href="css/pledge.css">
       <link rel="stylesheet" type="text/css" href="css/join.css">
-
-      <audio preload="false" id="streamer" name="media" src="http://129.65.35.106:8000/KCPRMP3;">
-      <!--source src="http://129.65.35.106:8000/KCPRHIGH" type="audio/aac">
-      <source src="http://129.65.35.106:8000/KCPRMP3" type="audio/mpeg"-->
-      </audio>
-
       <link rel="shortcut icon" href='favicon.ico'/>
       <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-      <script type="text/javascript" src="js/main.js"></script>
 
    </head>
 
    <body>
       <div class="main">
-         <div id="heading" style="position:fixed;">
+         <div id="heading" style="position:absolute;">
             <div class="logo">
                <img class="logo"
                id ="logo"
-               src="images/svg/kcpr_final_logo_horiz_color_nobg.svg" height=76px>
+               src="images/long_logo.jpg" height=76px>
                </img><br>
                SAN LUIS OBISPO, CA. 805-756-5277.
             </div>
@@ -50,25 +40,32 @@
          </div>
          <div id="fake_header"></div>
          <div id="menu_container">
-           <div id="temp_play"> 
-STREAM
-<object type="application/x-shockwave-flash" data="http://flash-mp3-player.net/medias/player_mp3_maxi.swf" width="20" height="20">
-    <param name="movie" value="http://flash-mp3-player.net/medias/player_mp3_maxi.swf" />
-    <param name="bgcolor" value="#337777" />
-    <param name="FlashVars" value="mp3=http%3A//129.65.35.106%3A8000/KCPRMP3&amp;width=26&amp;height=27&amp;showslider=0&amp;buttonwidth=20&amp;sliderheight=15&amp;volumewidth=5&amp;volumeheight=56&amp;bgcolor=000000&amp;bgcolor1=000000&amp;bgcolor2=000000" />
-</object> 
-</div>
             <div class="menu">
-               <div class="item" url="/news" t="KCPR - NEWS">NEWS</div>
-               <div class="item" url="/schedule" t="KCPR - SCHEDULE">SCHEDULE</div>
-               <div class="item" url="/join" t="KCPR - JOIN">JOIN</div>
-               <div class="item" url="/about" t="KCPR - ABOUT">ABOUT</div>
-               <div class="item" url="/pledge" t="KCPR - PLEDGE">PLEDGE</div>
+               <div class="item"><a href="news.php">NEWS</a></div>
+               <div class="item"><a href="schedule.php">SCHEDULE</a></div>
+               <div class="item"><a href="join.php">JOIN</a></div>
+               <div class="item"><a href="about.php">ABOUT</a></div>
+               <div class="item"><a href="pledge.php">PLEDGE</a></div>
             </div>
          </div>
-         <div id="ajax_content">
+<div id="news" class="content">
+NOTE: If you are here, you probably have an old version of Internet Explorer. Consider upgrading for a better experience on this site and others.
+<?php
+$blog = simplexml_load_file("xml/blog.xml", 'SimpleXMLIterator');
+foreach($blog as $post) {
+   echo "<div class='post'>";
+      echo "<div class='post_heading'>";
+         echo "<date>".$post->date; 
+         echo "<post_title>".$post->title."</post_title>";
+      echo "</div>";
+      echo "<a target='_blank' href='".$post->image."'><img src='".$post->image."'></img></a>";
+      echo $post->text;
+      echo "<div class='post_footer'></div>";
+   echo "</div>";
+}?>
+   </div>
 
-         </div>
+</div>
          <div id="footer">
             <a href="http://calpoly.edu">Cal Poly</a> > <a href="http://cla.calpoly.edu/jour">College of Liberal Arts: Journalism Department</a> > KCPR 91.3 FM
          </div>

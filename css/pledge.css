@@ -123,6 +123,7 @@ cursive{
    width:100%;
    margin:0px auto;
    text-align:center;
+   background:#3b7;
    background-image:url('/images/heading.svg');
    background-attachment:fixed;
    color:white;
