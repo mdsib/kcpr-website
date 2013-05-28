@@ -1,9 +1,9 @@
 <?php
 function print_thermometer()
 {
-   $current = 1573.34;
+   $current = 2779.53;
    echo "<div id = 'thermometer_container'>";
-   echo "<div id = 'thermometer_progress' style='width:".(($current / 5000) * 100)."%'>$".$current."</div>";
+   echo "<div id = 'thermometer_progress' style='width:".(($current / 4000) * 100)."%'>$".$current."</div>";
    echo "</div>";
 }?>
 
