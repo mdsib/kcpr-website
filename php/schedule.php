@@ -19,7 +19,6 @@ function print_calendar_time() {
       "10",
       "11",
       "12pm",
-      "12:30",
       "1",
       "2",
       "3",
@@ -62,8 +61,62 @@ $auto4 = array (
    "title" => "",
    "length" => 4,
    "format" =>"auto");
+$auto5 = array (
+   "title" => "",
+   "length" => 5,
+   "format" =>"auto");
 
-//GRAVEYARDS////////////////////////////////
+////REGULAR SHOWS
+$pizza = array (
+   "title" => "DJ Pizza",
+   "length" => 2,
+   "format" => "regular"
+);
+$logan = array (
+   "title" => "Logan's Run",
+   "length" => 3,
+   "format" => "regular"
+);
+$liz = array (
+   "title" => "Liz",
+   "length" => 2,
+   "format" => "regular"
+);
+$nutella = array (
+   "title" => "dj nutella",
+   "length" => 1,
+   "format" => "regular"
+);
+$pickles = array (
+   "title" => "Pickles",
+   "length" => 2,
+   "format" => "regular"
+);
+$hippie = array (
+   "title" => "Disgusting Old Hippie",
+   "length" => 2,
+   "format" => "regular"
+);
+$vibeyvibes = array (
+   "title" => "Vibey Vibes",
+   "length" => 2,
+   "format" => "regular"
+);
+$libra = array (
+   "title" => "Lady Libra",
+   "length" => 2,
+   "format" => "regular"
+);
+$pidgeon = array (
+   "title" => "Pidgeon",
+   "length" => 2,
+   "format" => "regular"
+);
+$vulva = array (
+   "title" => "DJ Vulva",
+   "length" => 2,
+   "format" => "regular",
+);
 $djumpteenth = array (
    "title" => "DJ Umpteenth",
    "length" => 1,
@@ -71,7 +124,7 @@ $djumpteenth = array (
 );
 $bobak = array (
    "title" => "Bobak",
-   "length" => 1,
+   "length" => 2,
    "format" => "regular",
 );
 $connorfs = array (
@@ -86,7 +139,7 @@ $connor = array (
 );
 $lauren = array (
    "title" => "Lauren",
-   "length" => 1,
+   "length" => 2,
    "format" => "regular",
 );
 $kid = array (
@@ -104,11 +157,6 @@ $sam = array (
    "length" => 1,
    "format" => "regular",
 );
-$pigeon = array (
-   "title" => "Pigeon",
-   "length" => 1,
-   "format" => "regular",
-);
 $magic = array (
    "title" => "DJ Magic Touch",
    "length" => 1,
@@ -116,7 +164,7 @@ $magic = array (
 );
 $swiftmane = array (
    "title" => "DJ Swiftmane",
-   "length" => 3,
+   "length" => 4,
    "format" => "regular",
 );
 $funkydunk = array (
@@ -125,7 +173,6 @@ $funkydunk = array (
    "format" => "regular",
 );
 
-////REGULAR SHOWS
 $dino = array (
    "title" => "DJ Dino",
    "length" => 2,
@@ -152,8 +199,8 @@ $ian = array (
    "format" => "regular",
 );
 $bethany = array (
-   "title" => "bethany",
-   "length" => 1,
+   "title" => "DJ Pizza",
+   "length" => 2,
    "format" => "regular",
 );
 $jimmy = array (
@@ -178,7 +225,7 @@ $fiscal = array (
 );
 $dissonance = array (
    "title" => "Dissonance",
-   "length" => 4,
+   "length" => 3,
    "format" => "regular",
 );
 $wilbur = array (
@@ -194,11 +241,6 @@ $pnb = array (
 $mae = array (
    "title" => "DJ Mae",
    "length" => 2,
-   "format" => "regular",
-);
-$bethany = array (
-   "title" => "Bethany",
-   "length" => 1,
    "format" => "regular",
 );
 $ariel = array (
@@ -257,6 +299,36 @@ $ben = array (
    "format" => "regular",
 );
 //SPECIAL FORMATS
+$block = array (
+   "title" => "Writer's Block",
+   "length" => 1, //in number of half hours
+   "format" => "special",
+);
+$wefunk = array (
+   "title" => "W-E-F-U-N-K",
+   "length" => 1, //in number of half hours
+   "format" => "special",
+);
+$nerd = array (
+   "title" => "n3rd0m",
+   "length" => 1, //in number of half hours
+   "format" => "special",
+);
+$cosmicbg = array (
+   "title" => "ỊИ₣ỊN̛̟̣̯ͤ͌̇ͧ̿̇̉͊͋͗̒ͨ͑̄ͯ̿͋̕͝ͅИỊ₮Є ϾØϨMỊϾ Ɓ∆ϾK₲ЯØṲИḐ̷̶̡̗͕̺͓͂ͬͦ́̉ͩͤ̎",
+   "length" => 2, //in number of half hours
+   "format" => "special",
+);
+$slack = array (
+   "title" => "eternal slack",
+   "length" => 2, //in number of half hours
+   "format" => "special",
+);
+$insound = array (
+   "title" => "In Sound from Way Out",
+   "length" => 2, //in number of half hours
+   "format" => "special",
+);
 $bandwagon = array (
    "title" => "Bandwagon",
    "length" => 2, //in number of half hours
@@ -387,8 +459,8 @@ $slaytanic = array (
    "length" => 1, //in number of half hours
    "format" => "special",
 );
-$musica = array (
-   "title" => "Musica Americana",
+$musicamericana = array (
+   "title" => "Music Americana",
    "length" => 2, //in number of half hours
    "format" => "special",
 );
@@ -414,7 +486,7 @@ $miles = array (
 );
 $playtime = array (
    "title" => "Velanche's Playtime",
-   "length" => 3,
+   "length" => 2,
    "format" => "special",
 );
 $nodepression = array (
@@ -433,7 +505,7 @@ $deepplaya = array (
    "format" => "special",
 );
 $flashback = array (
-   "title" => "Friday Night Flashback",
+   "title" => "Friday Night Flashbacks",
    "length" => 2,
    "format" => "special",
 );
@@ -447,7 +519,7 @@ $audioscapes = array (
    "length" => 2,
    "format" => "special",
 );
-$pickles = array (
+$picklesvariety = array (
    "title" => "The Biba Pickles Variety Hour",
    "length" => 1,
    "format" => "special",
@@ -504,14 +576,12 @@ $story = array(
 
 //ARRAYS OF SHOWS ON DAYS/////////////////////////////////
 $sunday = array(
-   $djumpteenth,
-   $auto3,
-   $funkydunk,
+   $auto5,
+   $libra,
    $dissonance,
-   $wilbur,
+   $auto2,
    $bandwagon,
-   $brainwash,
-   $bonusstage,
+   $auto2,
    $lofi,
    $mopedals,
    $mangez,
@@ -520,112 +590,92 @@ $sunday = array(
 );
 
 $monday = array(
-   $bobak,
-   $connorfs,
    $auto2,
+   $vulva,
    $democracynow,
    $newreleases,
-   $chrisnic,
+   $vibeyvibes,
+   $auto2,
    $bug,
-   $dino,
    $freespeech,
-   $cst,
    $redspot,
+   $liz,
    $muzicdotnet,
-   $mega,
    $crates,
-   $edge,
+   $auto1,
 );
 
 $tuesday = array(
-   $connor,
-   $kid,
-   $michele,
-   $ian,
-   $democracynow,
-   $auto1,
-   $kidsthesedays,
-   $iggy,
-   $fiscal,
-   $pnb,
-   $mae,
-   $freespeech,
-   $groovin,
-   $kites,
-   $scarydoor,
-   $drub,
-   $nodisco,
    $auto2,
+   $bear,
+   $democracynow,
+   $lauren,
+   $hippie,
+   $pickles,
+   $pizza,
+   $freespeech,
+   $brainwash,
+   $cosmicbg,
+   $bonusstage,
+   $nodisco,
+   $auto2
 );
 
 $wednesday = array(
-   $auto1,
-   $lauren,
-   $auto1,
-   $bethany,
+   $auto2,
+   $insound,
    $democracynow,
    $speaklow,
-   $ariel,
+   $slack,
+   $nutella,
    $danimals,
-   $capnj,
-   $sophie,
-   $blue,
+   $auto2,
    $freespeech,
-   $rasta,
-   $diggity,
-   $breadroses,
-   $kickit,
+   $groovin,
+   $kites,
+   $anti,
    $noise,
    $slaytanic,
    $auto1,
 );
 
 $thursday = array(
-   $annie,
-   $sam,
-   $jimmy,
+   $auto4,
    $democracynow,
-   $musica,
-   $bear,
-   $roundtrip,
-   $grayarea,
-   $rawdog,
-   $rlc,
+   $musicamericana,
+   $swiftmane,
+   $auto2,
    $freespeech,
    $soulandblues,
-   $story,
+   $nerd,
    $miles,
+   $wefunk,
    $playtime,
 );
 
 $friday = array(
-   $pigeon,
-   $magic,
-   $backwards,
+   $auto4,
    $democracynow,
    $nodepression,
    $auto2,
-   $crub,
    $blume,
-   $fridayunwind,
+   $bobak,
    $freespeech,
-   $deepplaya,
+   $block,
    $flashback,
    $altshow,
    $audioscapes,
 );
 
 $saturday = array(
+   $auto5,
+   $pidgeon,
    $auto4,
-   $swiftmane,
-   $cpcurrent,
+   $picklesvariety,
    $auto2,
-   $ben,
-   $pickles,
    $arctic,
-   $anti,
    $fudge,
-   $club,
+   $logan,
 );
 
 
