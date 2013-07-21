@@ -1,7 +1,7 @@
 
 
 <div id="news" class="content"> 
-<h2><b><i>Please browse the list to find exactly whom you need to contact at KCPR. We are all in charge of different things!!</b></i><br></h2>
+<h2><b><i>Please browse the list to find exactly whom you need to contact at KCPR. We are all in charge of different things!! Please, no depersonalized PR campaigns (spam) <3</b></i><br></h2>
 <b>Mailing Address:<br><br>
 (executive title)<br> 
 KCPR 91.3 FM <br>
@@ -23,7 +23,7 @@ The MD's add new music to our rotation and host the New Releases program. If you
 <b>Business Directors - Roxanne Hoffman, Joe Durantini</b><br>
 The Business Directors are in charge of KCPR's general accounting and other financial requirements. This also includes running our annual Auction and Pledge drive. They can be reached by mail or by email at <a href="mailto:13kcprbusiness@gmail.com">913kcprbusiness@gmail.com</a>.
 <br><br>
-<b>Promotion Directors - Haley Brown, Pickles, Bethany Benson</b><br>
+<b>Promotion Directors - Haley Brown, Biba Pickles, Bethany Benson</b><br>
 The Promotions Directors are in charge of promoting KCPR events and getting the community involved with KCPR. This includes making KCPR swag, setting up giveaways to local events. <a href="mailto:kcprpromotion@gmail.com">kcprpromotion@gmail.com</a>
 <br><br>
 <b>Internet Director - Greg Benninger</b><br>
